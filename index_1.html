@@ -1,0 +1,1718 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anna Marie's 2026 Christmas List</title>
+<meta name="description" content="Anna Marie's Christmas list for Mom, Kim, Dad and Roy.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#1F3B2A">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Anna Marie's Christmas List">
+<meta property="og:title" content="Anna Marie's 2026 Christmas List">
+<meta property="og:description" content="For Mom, Kim, Dad and Roy. Tap to open the list.">
+<meta property="og:url" content="https://annawatson961-cpu.github.io/christmas-list/">
+<meta property="og:image" content="https://annawatson961-cpu.github.io/christmas-list/preview.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Anna Marie's 2026 Christmas List">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://annawatson961-cpu.github.io/christmas-list/preview.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Figtree:wght@400;500;600;700&family=Pinyon+Script&display=swap">
+<style>
+/* Layout: a traditional Christmas-card header (lit garland, script greeting, letter tied with a velvet bow) over gift-tag cards grouped by category.
+   Palette: candlelit parchment, burgundy velvet, evergreen, antique gold. */
+:root {
+  --bg: #F8F0E2;
+  --glow: rgba(214, 168, 82, 0.20);
+  --surface: #FFFCF5;
+  --surface-2: #F1E5CF;
+  --ink: #2A1913;
+  --muted: #76604F;
+  --line: #E5D4B8;
+  --accent: #7A1626;
+  --accent-ink: #FFF8EC;
+  --accent-hover: #5E0F1C;
+  --brass: #8A6320;
+  --brass-bg: #F3E4C3;
+  --gold: #C29A48;
+  --pine: #1F3B2A;
+  --pine-2: #2B4E37;
+  --light: #FFD98A;
+  --ok: #2B6142;
+  --ok-bg: #E2EEE3;
+  --photo: #FFFFFF;
+  --focus: #2F6FB0;
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-letter: "EB Garamond", "Iowan Old Style", Georgia, serif;
+  --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-hand: "Pinyon Script", "Snell Roundhand", "Apple Chancery", cursive;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #160F0D; --glow: rgba(214, 168, 82, 0.12); --surface: #221815; --surface-2: #2C201B; --ink: #F5EBDC; --muted: #BFA995; --line: #3C2D25;
+    --accent: #C64B5C; --accent-ink: #1A0B0D; --accent-hover: #D96676;
+    --brass: #DDBA6C; --brass-bg: #392B18; --gold: #D6B160; --pine: #1B3325; --pine-2: #264532; --light: #FFD98A;
+    --ok: #74C792; --ok-bg: #1B3223; --photo: #FFFFFF; --focus: #7FB2E8;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #160F0D; --glow: rgba(214, 168, 82, 0.12); --surface: #221815; --surface-2: #2C201B; --ink: #F5EBDC; --muted: #BFA995; --line: #3C2D25;
+  --accent: #C64B5C; --accent-ink: #1A0B0D; --accent-hover: #D96676;
+  --brass: #DDBA6C; --brass-bg: #392B18; --gold: #D6B160; --pine: #1B3325; --pine-2: #264532; --light: #FFD98A;
+  --ok: #74C792; --ok-bg: #1B3223; --photo: #FFFFFF; --focus: #7FB2E8;
+  color-scheme: dark;
+}
+
+/* a lit evergreen garland across the top */
+.garland {
+  height: 36px;
+  background:
+    radial-gradient(circle, var(--light) 0 2.6px, rgba(255, 217, 138, 0.45) 3.6px, transparent 8px) 10px 9px / 46px 36px repeat-x,
+    radial-gradient(circle, var(--accent) 0 3.4px, transparent 4px) 33px 22px / 92px 36px repeat-x,
+    repeating-linear-gradient(115deg, var(--pine) 0 5px, var(--pine-2) 5px 8px, var(--pine) 8px 12px);
+  border-bottom: 3px solid var(--gold);
+}
+
+/* the letter, tied with a velvet bow */
+.letter { position: relative; margin: 34px 0 6px; max-width: 70ch; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 74px 30px 22px; box-shadow: 0 1px 0 var(--line); }
+.letter::before { content: ""; position: absolute; left: 0; right: 0; top: 14px; height: 12px; background: linear-gradient(180deg, #C8202F, #A3111E 55%, #870C18); }
+.letter p { margin: 0 0 12px; font-family: var(--font-letter); font-size: 1.16rem; line-height: 1.65; }
+.letter .sign { font-family: var(--font-hand); font-size: 2.3rem; line-height: 1.1; color: var(--accent); margin: 4px 0 0; }
+.letter .bow { position: absolute; top: -30px; left: 50%; width: 118px; height: 92px; transform: translateX(-50%); filter: drop-shadow(0 3px 3px rgba(40, 10, 10, 0.25)); }
+.star { color: var(--gold); }
+
+/* page tabs */
+.wrap { grid-template-columns: minmax(0, 1fr); }
+[hidden] { display: none !important; }
+.view { display: grid; gap: 32px; grid-template-columns: minmax(0, 1fr); min-width: 0; }
+.view > * { min-width: 0; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.tab { text-decoration: none; font-weight: 600; font-size: 0.95rem; padding: 9px 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
+.tab[aria-current="page"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.tab-grand { border-color: var(--gold); }
+.tab-grand[aria-current="page"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.tab-grand[aria-current="page"] .star { color: var(--light); }
+
+/* teaser on the wish list */
+.gg-teaser { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 18px; max-width: 70ch; text-decoration: none; color: #FFF6E8; background: linear-gradient(135deg, #7A1626, #5A0E1A); border: 2px solid var(--gold); border-radius: 14px; padding: 14px 18px; margin-top: 6px; }
+.gg-teaser:hover { filter: brightness(1.06); }
+.gg-teaser-pics { display: flex; }
+.gg-teaser-pics img { width: 58px; height: 58px; object-fit: cover; border: 4px solid #fff; box-shadow: 0 2px 6px rgba(0,0,0,.3); }
+.gg-teaser-pics img:first-child { transform: rotate(-7deg); }
+.gg-teaser-pics img:last-child { transform: rotate(6deg); margin-left: -14px; }
+.gg-teaser-text { display: grid; gap: 2px; min-width: 0; }
+.gg-teaser-eyebrow { font-size: 0.78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #E9C77E; }
+.gg-teaser-title { font-family: var(--font-display); font-weight: 700; font-size: 1.45rem; line-height: 1.1; }
+.gg-teaser-sub { font-family: var(--font-letter); font-style: italic; font-size: 1.02rem; opacity: .92; }
+.gg-teaser-go { font-weight: 700; background: #E9C77E; color: #3B0A12; border-radius: 999px; padding: 9px 16px; text-align: center; line-height: 1.25; }
+
+/* grand gift page */
+.gg { gap: 56px; overflow-x: clip; padding-block: 4px; }
+.gg-hero { display: grid; justify-items: center; text-align: center; gap: 12px; padding-top: 8px; }
+.gg-eyebrow { margin: 0; font-family: var(--font-hand); font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.2; color: var(--accent); }
+.gg-hero h2 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(2.4rem, 6.5vw, 4rem); line-height: 1.02; text-wrap: balance; max-width: 18ch; }
+.gg-lede { margin: 4px 0 0; max-width: 46ch; font-family: var(--font-letter); font-size: 1.28rem; line-height: 1.6; }
+.gg-cue { margin: 6px 0 0; font-size: 0.9rem; color: var(--muted); }
+.polaroids { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 6px; margin-top: 22px; }
+.polaroid { margin: 0; background: #FFFFFF; padding: 10px 10px 0; box-shadow: 0 6px 18px rgba(40, 20, 10, 0.18), 0 1px 2px rgba(40, 20, 10, 0.2); transform: rotate(var(--r, 0deg)); transition: transform .3s ease; width: clamp(130px, 16vw, 180px); }
+.polaroid:hover { transform: rotate(0deg) scale(1.04); z-index: 2; position: relative; }
+.polaroid img { display: block; width: 100%; height: auto; }
+.polaroids { align-items: center; }
+.scrapbook { align-items: center; }
+.polaroid figcaption { font-family: var(--font-letter); font-style: italic; font-size: 1.02rem; color: #3B2A20; text-align: center; padding: 8px 4px 12px; }
+.scrapbook { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 170px), 1fr)); gap: 22px 18px; max-width: 720px; margin: -24px auto 0; width: 100%; justify-items: center; }
+.scrapbook .polaroid { width: 100%; max-width: 210px; }
+.gg-sec { display: grid; gap: 14px; max-width: 720px; margin: 0 auto; width: 100%; box-sizing: border-box; }
+.gg-sec.gg-wide { max-width: 1000px; }
+.gg-sec h3, .gg-cta h3 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: clamp(1.9rem, 4vw, 2.4rem); line-height: 1.1; display: flex; align-items: center; gap: 12px; }
+.gg-sec h3::before { content: ""; width: 10px; height: 10px; background: var(--gold); transform: rotate(45deg); flex: none; }
+.gg-sec h4 { margin: 10px 0 0; font-size: 0.82rem; letter-spacing: .1em; text-transform: uppercase; color: var(--brass); }
+.gg-sec p { margin: 0; font-family: var(--font-letter); font-size: 1.2rem; line-height: 1.7; }
+.gg-sec p.gg-big { font-size: 1.42rem; line-height: 1.55; color: var(--accent); }
+.gg-asks { margin: 0; padding: 0; list-style: none; counter-reset: ask; display: grid; gap: 12px; }
+.gg-asks li { counter-increment: ask; position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px 14px 70px; min-height: 40px; font-family: var(--font-letter); font-size: 1.15rem; line-height: 1.55; }
+.gg-asks li::before { content: counter(ask); position: absolute; left: 16px; top: 14px; display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%; background: var(--accent); color: var(--accent-ink); font-family: var(--font-display); font-weight: 700; font-size: 1.35rem; }
+.gg-asks b { font-family: var(--font-body); font-weight: 700; font-size: 1.02rem; display: block; margin-bottom: 2px; }
+.gg-why { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap: 16px; }
+.why { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--gold); border-radius: 10px; padding: 18px 20px; display: grid; gap: 8px; align-content: start; }
+.why h5 { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.4rem; line-height: 1.15; }
+.why p { font-size: 1.08rem !important; line-height: 1.6 !important; }
+.why-wide { grid-column: 1 / -1; background: var(--brass-bg); }
+.trips { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 18px; }
+.trip { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
+.trip img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.trip-body { padding: 16px 18px 20px; display: grid; gap: 6px; }
+.trip-tag { font-family: var(--font-body) !important; font-size: 0.78rem !important; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
+.trip h5 { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.55rem; line-height: 1.1; }
+.trip-len { font-family: var(--font-body) !important; font-size: 0.9rem !important; font-weight: 600; color: var(--muted); }
+.trip-body p:last-child { font-size: 1.08rem; line-height: 1.55; }
+.gg-soft { background: var(--surface-2); border-radius: 16px; padding: 26px 28px; max-width: 760px; }
+.gg-checks { margin: 0; padding: 0; list-style: none; display: grid; gap: 10px; }
+.gg-checks li { position: relative; padding-left: 36px; font-family: var(--font-letter); font-size: 1.18rem; line-height: 1.55; }
+.gg-checks li::before { content: ""; position: absolute; left: 0; top: 4px; width: 22px; height: 22px; border-radius: 50%; background: var(--ok); }
+.gg-checks li::after { content: ""; position: absolute; left: 7px; top: 9px; width: 6px; height: 10px; border: solid var(--ok-bg); border-width: 0 2.5px 2.5px 0; transform: rotate(45deg); }
+.gg-future { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 34px; align-items: center; max-width: 900px; margin: 0 auto; }
+.gg-future .polaroid { width: clamp(170px, 24vw, 250px); }
+.gg-future .polaroid img { aspect-ratio: 2 / 3; }
+.gg-future blockquote { margin: 0 0 14px; font-family: var(--font-display); font-style: italic; font-weight: 600; font-size: clamp(1.6rem, 3.4vw, 2.15rem); line-height: 1.25; color: var(--accent); }
+.gg-future p { margin: 0; font-family: var(--font-letter); font-size: 1.2rem; line-height: 1.7; }
+.gg-cta { display: grid; justify-items: center; text-align: center; gap: 14px; max-width: 760px; margin: 0 auto; width: 100%; box-sizing: border-box; color: #FFF6E8; background: radial-gradient(120% 140% at 50% 0%, #93223A 0%, #6A1220 55%, #4A0B16 100%); border: 2px solid var(--gold); border-radius: 18px; padding: 34px 22px 30px; box-shadow: 0 10px 30px rgba(60, 10, 20, 0.25); }
+.gg-cta h3 { justify-content: center; color: #FFF6E8; }
+.gg-cta-q { margin: 0; font-family: var(--font-letter); font-size: 1.2rem; }
+.gg-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.gg-chips button { font: inherit; font-weight: 600; font-size: 0.95rem; color: #FFF6E8; background: rgba(255, 255, 255, 0.08); border: 1.5px solid rgba(233, 199, 126, 0.7); border-radius: 999px; padding: 8px 16px; cursor: pointer; }
+.gg-chips button[aria-pressed="true"] { background: #E9C77E; color: #3B0A12; border-color: #E9C77E; }
+.gg-yes { font: inherit; font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; color: #3B0A12; background: linear-gradient(180deg, #F3D894, #D9AE58); border: 0; border-radius: 999px; padding: 14px 30px; cursor: pointer; box-shadow: 0 4px 0 #9C7430, 0 8px 18px rgba(0,0,0,.25); margin-top: 6px; }
+.gg-yes:hover { filter: brightness(1.05); }
+.gg-yes:active { transform: translateY(2px); box-shadow: 0 2px 0 #9C7430; }
+.gg-answer { margin: 0; font-family: var(--font-letter); font-size: 1.2rem; background: rgba(255, 255, 255, 0.1); border-radius: 10px; padding: 10px 16px; }
+.gg-answer b { font-family: var(--font-hand); font-weight: 400; font-size: 1.9rem; color: #F3D894; display: block; line-height: 1.2; }
+.gg-fine { margin: 0; font-size: 0.85rem; opacity: .8; max-width: 46ch; }
+.gg-sign { margin: 10px 0 0; font-family: var(--font-hand); font-size: 2rem; line-height: 1.25; color: #F3D894; }
+#gg-snow { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 50; display: none; }
+@media (max-width: 640px) {
+  .gg-future { grid-template-columns: minmax(0, 1fr); justify-items: center; text-align: center; }
+  .gg-teaser { grid-template-columns: minmax(0, 1fr); text-align: left; }
+  .gg-teaser-go { justify-self: start; }
+  .polaroid { width: clamp(130px, 40vw, 180px); }
+  .gg-soft { padding: 20px; }
+}
+@media (prefers-reduced-motion: reduce) { .polaroid { transition: none; } }
+
+/* then vs. now: one line chart over the years + a then/now bar comparison */
+.trend { margin: 4px 0 0; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px 18px; display: grid; gap: 18px; }
+.trend-grid { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(0, 1fr); gap: 22px 30px; align-items: start; }
+.gg-sec .trend-h { margin: 0 0 6px; display: grid; gap: 1px; }
+.trend-h b { font-family: var(--font-body); font-weight: 700; font-size: 1rem; line-height: 1.3; }
+.trend-h span { font-family: var(--font-body); font-size: 0.86rem; line-height: 1.35; color: var(--muted); }
+.trend-chart { position: relative; min-width: 0; }
+.trend-svg { display: block; width: 100%; overflow: visible; touch-action: pan-y; cursor: crosshair; }
+.trend-svg:focus { outline: none; }
+.trend-svg:focus-visible { outline: 2px solid var(--focus); outline-offset: 4px; border-radius: 6px; }
+.t-grid { stroke: var(--line); stroke-width: 1; shape-rendering: crispEdges; }
+.t-axis { fill: var(--muted); font-family: var(--font-body); font-size: 11px; font-variant-numeric: tabular-nums; }
+.t-band { fill: var(--surface-2); opacity: .7; }
+.t-band-l { fill: var(--muted); font-family: var(--font-body); font-size: 11px; font-weight: 600; }
+.t-area { fill: var(--accent); opacity: .1; }
+.t-line { fill: none; stroke: var(--accent); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.t-dot { fill: var(--accent); stroke: var(--surface); stroke-width: 2; }
+.t-lab { fill: var(--ink); font-family: var(--font-body); font-size: 12px; font-weight: 700; }
+.t-lab tspan { fill: var(--muted); font-weight: 500; }
+.t-cross { stroke: var(--muted); stroke-width: 1; shape-rendering: crispEdges; }
+.t-hot { fill: var(--accent); stroke: var(--surface); stroke-width: 2.5; }
+.gg-sec .trend-tip { margin: 6px 0 0; font-family: var(--font-body); font-size: 0.82rem; line-height: 1.4; color: var(--muted); }
+.cmp { display: grid; }
+.cmp-row { display: grid; gap: 3px; padding: 7px 0; }
+.cmp-lab { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; font-size: 0.92rem; line-height: 1.3; }
+.cmp-lab b { font-weight: 700; }
+.cmp-lab span { color: var(--muted); font-size: 0.82rem; white-space: nowrap; }
+.cmp-track { display: flex; align-items: center; gap: 8px; border-left: 1px solid var(--line); min-height: 24px; }
+.cmp-bar { flex: 0 0 auto; width: calc((100% - 3.2rem) * var(--w)); min-width: 3px; height: 18px; border-radius: 0 4px 4px 0; background: var(--accent); }
+.cmp-val { font-weight: 600; font-size: 0.98rem; white-space: nowrap; }
+.cmp-val small { font-size: 0.8rem; font-weight: 500; color: var(--muted); }
+.ms-wrap { border-top: 1px solid var(--line); padding-top: 14px; }
+.ms { list-style: none; margin: 0; padding: 0; columns: 3 240px; column-gap: 26px; }
+.ms li { break-inside: avoid; display: grid; grid-template-columns: 4.4rem minmax(0, 1fr); gap: 8px; padding: 3px 0; font-size: 0.92rem; line-height: 1.4; }
+.ms b { font-weight: 700; white-space: nowrap; }
+.ms li.now, .ms li.now b { color: var(--accent); font-weight: 700; }
+.ms li.next { color: var(--muted); }
+.gg-steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; }
+.gg-steps li { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--accent); border-radius: 10px; padding: 14px 16px; display: grid; gap: 4px; align-content: start; font-family: var(--font-letter); font-size: 1.12rem; line-height: 1.45; }
+.gg-steps b { font-family: var(--font-body); font-size: 0.8rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.gg-sec p.gg-note { background: var(--brass-bg); border-left: 4px solid var(--gold); border-radius: 0 10px 10px 0; padding: 14px 18px; font-size: 1.15rem; line-height: 1.6; }
+.gg-note b { font-family: var(--font-body); font-weight: 700; font-size: 1rem; display: block; margin-bottom: 2px; }
+.gg-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 150px), 1fr)); gap: 14px; margin-top: 8px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--gold); border-radius: 10px; padding: 16px 18px; display: grid; gap: 6px; align-content: start; }
+.gg-sec .stat p { margin: 0; }
+.gg-sec .stat .stat-v { font-family: var(--font-body); font-weight: 600; font-size: clamp(1.7rem, 4vw, 2.1rem); line-height: 1.1; color: var(--ink); }
+.gg-sec .stat .stat-l { font-family: var(--font-body); font-size: 0.95rem; line-height: 1.45; color: var(--muted); }
+.gg-how { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+.gg-how summary { cursor: pointer; padding: 12px 16px; font-weight: 600; font-size: 0.95rem; color: var(--brass); }
+.gg-how-body { padding: 0 16px 16px; display: grid; gap: 10px; }
+.gg-sec .gg-how-body p { font-family: var(--font-body); font-size: 0.92rem; line-height: 1.5; color: var(--muted); }
+.gg-how table { width: 100%; border-collapse: collapse; font-size: 0.92rem; }
+.gg-how th, .gg-how td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.gg-how th { font-size: 0.78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.gg-how td.n { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+.gg-pop { position: fixed; z-index: 60; max-width: 260px; pointer-events: none; background: var(--ink); color: var(--bg); border-radius: 8px; padding: 8px 11px; font-size: 0.85rem; line-height: 1.4; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25); }
+.gg-pop b { display: block; font-weight: 700; font-size: 0.95rem; }
+@media (max-width: 640px) {
+  .trend { padding: 14px 12px 14px; }
+  .trend-grid { grid-template-columns: minmax(0, 1fr); }
+  .ms li { grid-template-columns: 4rem minmax(0, 1fr); }
+  .stat { padding: 14px 14px; }
+  .gg-sec .stat .stat-v { font-size: 1.45rem; }
+  .gg-sec .stat .stat-l { font-size: 0.88rem; }
+}
+
+/* tap a polaroid to see it bigger */
+#view-grand .polaroid { cursor: zoom-in; }
+#view-grand .polaroid:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; transform: rotate(0deg); }
+.gg-sec p.gg-tip { display: inline-flex; align-items: center; gap: 8px; justify-self: start; font-family: var(--font-body); font-size: 0.95rem; font-weight: 600; line-height: 1.3; color: var(--brass); background: var(--brass-bg); border-radius: 999px; padding: 7px 14px 7px 11px; }
+.gg-tip svg { width: 18px; height: 18px; flex: none; }
+html.lb-open { overflow: hidden; }
+.lb { position: fixed; inset: 0; width: 100%; height: 100%; max-width: none; max-height: none; margin: 0; padding: 0; border: 0; background: rgba(18, 9, 7, 0.95); color: #FFF6E8; font-family: var(--font-body); overscroll-behavior: contain; }
+.lb::backdrop { background: rgba(18, 9, 7, 0.95); }
+.lb[open] { display: grid; grid-template-rows: minmax(0, 1fr) auto; }
+.lb-stage { min-height: 0; overflow: hidden; display: grid; place-items: center; padding: 60px 84px 6px; }
+.lb-frame { margin: 0; background: #FFFFFF; padding: 12px 12px 0; box-shadow: 0 18px 50px rgba(0, 0, 0, 0.5); }
+.lb-frame img { display: block; max-width: calc(100vw - 192px); max-height: calc(100vh - 210px); max-height: calc(100dvh - 210px); width: auto; height: auto; cursor: zoom-in; -webkit-user-select: none; user-select: none; }
+.lb-frame figcaption { font-family: var(--font-letter); font-style: italic; font-size: 1.3rem; color: #3B2A20; text-align: center; padding: 10px 8px 14px; }
+.lb.zoomed .lb-stage { display: block; overflow: auto; padding: 0; overscroll-behavior: contain; }
+.lb.zoomed .lb-frame { padding: 0; width: max-content; margin: 0 auto; background: transparent; box-shadow: none; }
+.lb.zoomed .lb-frame img { max-width: none; max-height: none; cursor: zoom-out; }
+.lb.zoomed .lb-frame figcaption { display: none; }
+.lb-bar { display: flex; justify-content: center; align-items: center; gap: 10px; padding: 10px 16px max(14px, env(safe-area-inset-bottom, 0px)); font-size: 0.92rem; color: rgba(255, 246, 232, 0.82); text-align: center; min-height: 52px; box-sizing: border-box; }
+.lb-count { font-weight: 700; color: #F3D894; }
+.lb-btn { position: absolute; display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; border: 1.5px solid rgba(233, 199, 126, 0.55); background: rgba(40, 20, 14, 0.7); color: #FFF6E8; cursor: pointer; padding: 0; }
+.lb-btn:hover { background: rgba(122, 22, 38, 0.85); border-color: #E9C77E; }
+.lb-btn:focus-visible { outline: 3px solid #7FB2E8; outline-offset: 2px; }
+.lb-btn svg { width: 24px; height: 24px; }
+.lb-close { top: max(12px, env(safe-area-inset-top, 0px)); right: max(12px, env(safe-area-inset-right, 0px)); width: 46px; height: 46px; }
+.lb-prev { left: max(16px, env(safe-area-inset-left, 0px)); top: calc(50% - 52px); }
+.lb-next { right: max(16px, env(safe-area-inset-right, 0px)); top: calc(50% - 52px); }
+.lb.zoomed .lb-prev, .lb.zoomed .lb-next { display: none; }
+@media (max-width: 640px) {
+  .lb-stage { padding: 62px 14px 6px; }
+  .lb-frame { padding: 8px 8px 0; }
+  .lb-frame img { max-width: calc(100vw - 44px); max-height: calc(100vh - 230px); max-height: calc(100dvh - 230px); }
+  .lb-frame figcaption { font-size: 1.15rem; padding: 8px 6px 12px; }
+  .lb-bar { padding-left: 76px; padding-right: 76px; min-height: 76px; flex-direction: column; gap: 2px; }
+  .lb-dot { display: none; }
+  .lb-prev, .lb-next { top: auto; bottom: max(12px, env(safe-area-inset-bottom, 0px)); }
+}
+
+body { background: radial-gradient(1100px 520px at 50% -60px, var(--glow), transparent 70%) no-repeat, var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.5; }
+.wrap {
+  max-width: 1080px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 56px;
+  display: grid; gap: 32px;
+}
+a { color: inherit; }
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 6px; }
+
+/* Header */
+.top { display: grid; gap: 10px; }
+.hand { font-family: var(--font-hand); font-size: clamp(1.9rem, 4.5vw, 2.4rem); line-height: 1.2; color: var(--accent); margin: 0; width: fit-content; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(2.6rem, 7vw, 4.2rem); line-height: 1; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+.lede { margin: 4px 0 0; max-width: 62ch; color: var(--muted); }
+.lede b { color: var(--ink); font-weight: 600; }
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; margin-top: 14px; padding-top: 16px; border-top: 1px solid var(--line); }
+.summary { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
+.summary .sep { color: var(--line); padding: 0 6px; }
+.summary .ok { color: var(--ok); }
+.seg { display: inline-flex; background: var(--surface-2); border-radius: 999px; padding: 3px; gap: 2px; }
+.seg button { font: inherit; font-size: 0.9rem; font-weight: 600; color: var(--muted); background: transparent; border: 0; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgba(0,0,0,.12); }
+.status { margin: 0; font-size: 0.92rem; color: var(--muted); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; max-width: 70ch; }
+.spoil { display: inline-flex; align-items: center; gap: 8px; font-size: 0.9rem; color: var(--muted); cursor: pointer; width: fit-content; }
+.spoil input { width: 16px; height: 16px; accent-color: var(--accent); margin: 0; }
+
+.example-note { margin: 0; font-size: 0.95rem; border: 1.5px dashed var(--brass); color: var(--ink); background: var(--brass-bg); border-radius: 12px; padding: 12px 16px; }
+.example-note b { color: var(--brass); }
+
+/* Sections */
+main { display: grid; gap: 40px; }
+.group { display: grid; gap: 16px; scroll-margin-top: 16px; }
+.cat-nav { display: flex; flex-wrap: wrap; gap: 8px; margin-top: -8px; }
+.cat-nav a { display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; font-weight: 600; font-size: 0.92rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 6px 14px; }
+.cat-nav a:hover { border-color: var(--muted); }
+.cat-nav a span { color: var(--muted); font-size: 0.82rem; font-variant-numeric: tabular-nums; }
+.group + .group { padding-top: 32px; border-top: 1px solid var(--line); }
+.group h2 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: 2rem; display: flex; align-items: baseline; gap: 10px; }
+.group h2::before { content: ""; align-self: center; width: 9px; height: 9px; background: var(--gold); transform: rotate(45deg); flex: none; }
+.group h2 .count { font-family: var(--font-body); font-size: 0.9rem; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 248px), 1fr)); grid-auto-flow: row dense; gap: 20px; }
+.empty { margin: 0; color: var(--muted); }
+
+/* Card */
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; transition: opacity .2s; }
+.photo { position: relative; display: block; aspect-ratio: 1 / 1; max-width: 100%; background: var(--photo); border-bottom: 1px solid var(--line); text-decoration: none; }
+.photo img { width: 100%; height: 100%; object-fit: contain; padding: 4px; box-sizing: border-box; transition: opacity .2s; }
+.photo.ph-empty { background: var(--surface-2); display: grid; place-items: center; align-content: center; gap: 8px; color: var(--muted); font-size: 0.85rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; }
+.photo.ph-empty svg { width: 52px; height: 52px; }
+.badge { position: absolute; top: 12px; left: 12px; font-size: 0.75rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--brass); background: var(--brass-bg); border-radius: 999px; padding: 4px 10px; }
+.ribbon { position: absolute; top: 12px; right: 12px; font-size: 0.75rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--ok); background: var(--ok-bg); border-radius: 999px; padding: 4px 10px; display: none; }
+.card-body { padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
+.eyebrow { display: flex; gap: 8px; align-items: center; min-height: 0; }
+.ex-tag { font-size: 0.72rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--brass); border: 1px solid var(--brass); border-radius: 4px; padding: 1px 6px; }
+.name { margin: 0; font-size: 1.12rem; font-weight: 600; line-height: 1.3; text-wrap: balance; }
+.name a { text-decoration: none; }
+.name a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.store { color: var(--muted); font-size: 0.92rem; font-weight: 500; }
+/* gift-tag price label */
+.tag { position: relative; font-weight: 700; font-variant-numeric: tabular-nums; font-size: 0.95rem; background: var(--brass-bg); color: var(--ink); padding: 3px 10px 3px 20px; clip-path: polygon(10px 0, 100% 0, 100% 100%, 10px 100%, 0 50%); }
+.tag::before { content: ""; position: absolute; left: 8px; top: 50%; width: 5px; height: 5px; margin-top: -2.5px; border-radius: 50%; background: var(--surface); }
+.opts { margin: 0; display: flex; flex-wrap: wrap; gap: 6px; }
+.opt { display: inline-flex; align-items: baseline; gap: 5px; border: 1px solid var(--line); border-radius: 6px; padding: 2px 8px; font-size: 0.85rem; }
+.opt dt { color: var(--muted); font-weight: 500; }
+.opt dd { margin: 0; font-weight: 700; }
+
+/* sets: pieces that are bought together */
+.set { grid-column: span 2; display: grid; gap: 12px; align-content: start; background: var(--surface-2); border-radius: 20px; padding: 14px; min-width: 0; }
+.set-head { display: flex; align-items: center; justify-content: space-between; gap: 8px 12px; flex-wrap: wrap; padding: 2px 4px 0; }
+.set-title { margin: 0; font-family: var(--font-display); font-size: 1.3rem; line-height: 1.2; display: grid; gap: 2px; }
+.set-eyebrow { font-family: var(--font-body); font-size: 0.72rem; font-weight: 700; letter-spacing: .07em; text-transform: uppercase; color: var(--brass); }
+.set-note { margin: 0 4px; font-size: 0.92rem; color: var(--muted); max-width: 60ch; }
+.set.n3 { grid-column: span 3; }
+.set-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr)); gap: 12px; align-items: stretch; }
+@media (max-width: 815px) { .set.n3 { grid-column: span 2; } }
+.notes { margin: 0; font-family: var(--font-letter); font-style: italic; font-size: 1.08rem; line-height: 1.35; color: var(--ink); }
+.actions { margin-top: auto; padding-top: 6px; display: grid; gap: 10px; }
+.buy { display: flex; align-items: center; justify-content: center; gap: 8px; font-weight: 700; text-decoration: none; color: var(--accent-ink); background: var(--accent); border-radius: 10px; padding: 11px 14px; }
+.buy:hover { background: var(--accent-hover); }
+.buy svg { width: 16px; height: 16px; }
+
+/* bought checkbox */
+.got { position: relative; display: flex; align-items: center; gap: 10px; border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; cursor: pointer; user-select: none; }
+.got input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.got-box { flex: none; width: 20px; height: 20px; border-radius: 6px; border: 2px solid var(--muted); display: grid; place-items: center; }
+.got-box svg { width: 13px; height: 13px; opacity: 0; color: var(--surface); }
+.got-text { font-weight: 600; font-size: 0.95rem; }
+.got-meta { margin-left: auto; font-size: 0.82rem; color: var(--muted); text-align: right; }
+.got:has(input:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; }
+.got:has(input:disabled) { cursor: default; opacity: .6; }
+
+.card.is-bought .ribbon { display: block; }
+.card.is-bought .photo img, .card.is-bought .photo.ph-empty svg { opacity: .45; }
+.card.is-bought .got { background: var(--ok-bg); border-color: transparent; }
+.card.is-bought .got-box { background: var(--ok); border-color: var(--ok); }
+.card.is-bought .got-box svg { opacity: 1; }
+.card.is-bought .got-text { color: var(--ok); }
+.card.is-bought .buy { background: var(--surface-2); color: var(--muted); }
+
+/* Anna's spoiler shield */
+body.nospoil .got, body.nospoil .ribbon, body.nospoil .seg, body.nospoil .summary .b { display: none !important; }
+body.nospoil .card.is-bought .photo img, body.nospoil .card.is-bought .photo.ph-empty svg { opacity: 1; }
+body.nospoil .card.is-bought .buy { background: var(--accent); color: var(--accent-ink); }
+
+footer { color: var(--muted); font-size: 0.85rem; padding-top: 22px; border-top: 1px solid var(--line); text-align: center; display: grid; gap: 2px; justify-items: center; }
+footer .merry { font-family: var(--font-hand); font-size: 2.4rem; line-height: 1.1; color: var(--accent); }
+
+@media (max-width: 520px) {
+  .wrap { padding-block: 28px 40px; gap: 26px; }
+  .bar { flex-direction: column; align-items: flex-start; }
+  .photo { aspect-ratio: 4 / 3; }
+}
+@media (max-width: 580px) {
+  .set, .set.n3 { grid-column: auto; padding: 10px; }
+  .set-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* public site: no shared checkmarks */
+body { margin: 0; }
+.bar .seg, #status, #spoil-wrap { display: none !important; }
+</style>
+</head>
+<body>
+
+<script type="application/json" id="items-data">
+{
+  "categories": [
+    {
+      "key": "bags",
+      "title": "Bags"
+    },
+    {
+      "key": "shoes",
+      "title": "Shoes"
+    },
+    {
+      "key": "clothing",
+      "title": "Clothing"
+    },
+    {
+      "key": "bedding",
+      "title": "Bedding"
+    },
+    {
+      "key": "home",
+      "title": "Home"
+    },
+    {
+      "key": "treats",
+      "title": "Treats"
+    }
+  ],
+  "sets": [
+    {
+      "id": "montreux-nocturne",
+      "title": "Comforter, duvet cover + shams",
+      "note": "These go together: the Montreux comforter goes inside the Nocturne duvet cover, with two matching Nocturne shams."
+    }
+  ],
+  "items": [
+    {
+      "id": "edelweiss-silk-comforter",
+      "name": "Edelweiss Silk Comforter",
+      "store": "Matouk",
+      "price": "$14,850",
+      "url": "https://www.matouk.com/products/edelweiss-silk-comforter?variant=54438351569171",
+      "img": "images/edelweiss.webp",
+      "options": [
+        [
+          "Size",
+          "King"
+        ],
+        [
+          "Season",
+          "All Season"
+        ]
+      ],
+      "notes": "",
+      "category": "bedding"
+    },
+    {
+      "id": "montreux-comforter",
+      "name": "Montreux Comforter",
+      "store": "Matouk",
+      "price": "$1,150",
+      "url": "https://www.matouk.com/products/montreux-comforter?variant=54438290751763",
+      "img": "images/montreux.webp",
+      "options": [
+        [
+          "Size",
+          "King"
+        ],
+        [
+          "Season",
+          "All Season"
+        ]
+      ],
+      "notes": "",
+      "set": "montreux-nocturne",
+      "category": "bedding"
+    },
+    {
+      "id": "nocturne-duvet-cover",
+      "name": "Nocturne Duvet Cover",
+      "store": "Matouk",
+      "price": "$1,150",
+      "url": "https://www.matouk.com/products/nocturne-duvet-cover?variant=54438409568531",
+      "img": "images/nocturne.webp",
+      "options": [
+        [
+          "Size",
+          "King"
+        ],
+        [
+          "Color",
+          "Bone"
+        ]
+      ],
+      "notes": "",
+      "set": "montreux-nocturne",
+      "category": "bedding"
+    },
+    {
+      "id": "nocturne-sham",
+      "name": "Nocturne Sham",
+      "store": "Matouk",
+      "price": "$195",
+      "qty": 2,
+      "url": "https://www.matouk.com/products/nocturne-sham?variant=54438302187795",
+      "img": "images/nocturne-sham.webp",
+      "options": [
+        [
+          "Size",
+          "Standard"
+        ],
+        [
+          "Color",
+          "Bone"
+        ],
+        [
+          "Quantity",
+          "2"
+        ]
+      ],
+      "notes": "",
+      "set": "montreux-nocturne",
+      "category": "bedding"
+    },
+    {
+      "id": "chanel-25-mini-brown",
+      "name": "Chanel Caviar Quilted Mini 25 Handbag",
+      "store": "Fashionphile",
+      "price": "$8,295",
+      "url": "https://www.fashionphile.com/products/chanel-caviar-quilted-mini-chanel-25-handbag-brown-1991575?variant=58660839883055",
+      "img": "images/chanel-brown.webp",
+      "options": [
+        [
+          "Color",
+          "Brown"
+        ],
+        [
+          "Condition",
+          "Pre-owned, Excellent"
+        ]
+      ],
+      "notes": "",
+      "category": "bags"
+    },
+    {
+      "id": "chanel-25-mini-black",
+      "name": "Chanel Caviar Quilted Mini 25 Handbag",
+      "store": "Fashionphile",
+      "price": "$7,250",
+      "url": "https://www.fashionphile.com/products/chanel-caviar-quilted-mini-chanel-25-handbag-black-1994201",
+      "img": "images/chanel-black.webp",
+      "options": [
+        [
+          "Color",
+          "Black"
+        ],
+        [
+          "Condition",
+          "Pre-owned, Excellent"
+        ]
+      ],
+      "notes": "",
+      "category": "bags"
+    },
+    {
+      "id": "vuori-villa-wideleg-black",
+      "name": "Villa Wide-Leg Pant",
+      "store": "Vuori",
+      "price": "$128",
+      "url": "https://vuoriclothing.com/products/womens-villa-wideleg-short-black?objectId=40283902574695",
+      "img": "images/vuori-villa.webp",
+      "options": [
+        [
+          "Color",
+          "Black"
+        ],
+        [
+          "Size",
+          "S"
+        ],
+        [
+          "Length",
+          "Short inseam"
+        ]
+      ],
+      "notes": "",
+      "category": "clothing"
+    },
+    {
+      "id": "loaded-tea-bucket",
+      "name": "Loaded Bucket Bundle",
+      "store": "The Loaded Tea Shop",
+      "price": "$72",
+      "url": "https://www.theloadedteashop.com/products/24-pack-bucket-bundle",
+      "img": "images/loaded-tea-bucket.webp",
+      "options": [
+        [
+          "Includes",
+          "24 mystery teas + bucket"
+        ]
+      ],
+      "notes": "",
+      "category": "treats"
+    },
+    {
+      "id": "tempur-adapt-cooling-king",
+      "name": "TEMPUR-Adapt + Cooling Topper",
+      "store": "Tempur-Pedic",
+      "price": "$349",
+      "url": "https://www.tempurpedic.com/other-products/tempur-toppers/v/3814/?upgrade=3855",
+      "img": "images/tempur-topper.webp",
+      "options": [
+        [
+          "Size",
+          "King"
+        ],
+        [
+          "Upgrade",
+          "Cooling"
+        ]
+      ],
+      "notes": "",
+      "category": "bedding"
+    },
+    {
+      "id": "pb-parkview-trunk",
+      "name": "Parkview Reclaimed Wood Trunk (64\")",
+      "store": "Pottery Barn",
+      "price": "$1,199",
+      "url": "https://www.potterybarn.com/products/parkview-reclaimed-wood-trunk-mp/?catalogId=84&sku=7524758",
+      "img": "images/pb-parkview-trunk.webp",
+      "options": [
+        [
+          "Arrives",
+          "Late Jan to mid Feb"
+        ]
+      ],
+      "notes": "For the living room, a place to keep blankets",
+      "category": "home"
+    },
+    {
+      "id": "roger-estate-wine-opener",
+      "name": "Roger Estate Table Top Wine Opener with Stand",
+      "store": "eBay listings",
+      "price": "$65",
+      "url": "https://exquisitewineaccessories.jbachbrands.com/products/roger-estate-table-top-wine-bottle-opener-with-stand",
+      "img": "images/wine-opener.webp",
+      "options": [
+        [
+          "Condition",
+          "Used"
+        ]
+      ],
+      "notes": "",
+      "category": "home"
+    },
+    {
+      "id": "vc-paigely-deep-forest",
+      "name": "Paigely Mule",
+      "store": "Vince Camuto",
+      "price": "$79.99",
+      "url": "https://www.vincecamuto.com/products/vince-camuto-paigely-mule-deep-forest-snake-print-leather",
+      "img": "images/vc-paigely.webp",
+      "options": [
+        [
+          "Color",
+          "Deep Forest Snake Print"
+        ]
+      ],
+      "notes": "",
+      "category": "shoes"
+    },
+    {
+      "id": "atorie-two-tone-white",
+      "name": "Two-Tone Canvas and Leather Handbag",
+      "store": "Atorie",
+      "price": "$319",
+      "url": "https://atorie.com/products/two-tone-canvas-and-leather-handbag?color=White+Medium-Large+37x27x17cm",
+      "img": "images/atorie-two-tone.webp",
+      "options": [
+        [
+          "Color",
+          "White"
+        ],
+        [
+          "Size",
+          "Medium-Large (37x27x17 cm)"
+        ]
+      ],
+      "notes": "",
+      "category": "bags"
+    },
+    {
+      "id": "vc-helenza-burnt-sugar",
+      "name": "Helenza Pump",
+      "store": "Vince Camuto",
+      "price": "$74.99",
+      "url": "https://www.vincecamuto.com/products/vince-camuto-helenza-pump-burnt-sugar-patent-leather",
+      "img": "images/vc-helenza.webp",
+      "options": [
+        [
+          "Color",
+          "Burnt Sugar Patent"
+        ]
+      ],
+      "notes": "",
+      "category": "shoes"
+    },
+    {
+      "id": "vc-galeni-tortilla",
+      "name": "Galeni Sandal",
+      "store": "Vince Camuto",
+      "price": "$109",
+      "url": "https://www.vincecamuto.com/products/vince-camuto-galeni-sandal-tortilla-suede",
+      "img": "images/vc-galeni.webp",
+      "options": [
+        [
+          "Color",
+          "Tortilla Suede"
+        ]
+      ],
+      "notes": "",
+      "category": "shoes"
+    },
+    {
+      "id": "vc-brelanie-barn-brown",
+      "name": "Brelanie Woven Mule",
+      "store": "Vince Camuto",
+      "price": "$99",
+      "url": "https://www.vincecamuto.com/products/vince-camuto-brelanie-woven-mule-barn-brown",
+      "img": "images/vc-brelanie.webp",
+      "options": [
+        [
+          "Color",
+          "Barn Brown Leather"
+        ]
+      ],
+      "notes": "",
+      "category": "shoes"
+    },
+    {
+      "id": "vici-olivia-slingback-taupe",
+      "name": "Olivia Slingback Heels",
+      "store": "VICI",
+      "price": "$85",
+      "url": "https://www.vicicollection.com/products/moira-slingback-heels?variant=41304312741950",
+      "img": "images/vici-moira.webp",
+      "options": [
+        [
+          "Color",
+          "Taupe"
+        ],
+        [
+          "Size",
+          "8"
+        ]
+      ],
+      "notes": "",
+      "category": "shoes"
+    },
+    {
+      "id": "vici-gloria-clear-nude",
+      "name": "Gloria Clear Mules",
+      "store": "VICI",
+      "price": "$78",
+      "url": "https://www.vicicollection.com/products/gloria-clear-mules",
+      "img": "images/vici-gloria.webp",
+      "options": [
+        [
+          "Color",
+          "Nude"
+        ]
+      ],
+      "notes": "",
+      "category": "shoes"
+    },
+    {
+      "id": "yl-thieves-oil",
+      "name": "Thieves Essential Oil Blend",
+      "store": "Young Living",
+      "price": "$52.30",
+      "url": "https://www.youngliving.com/us/en/product/thieves-essential-oil-blend",
+      "img": "images/yl-thieves-oil.webp",
+      "options": [
+        [
+          "Size",
+          "15 ml"
+        ]
+      ],
+      "notes": "",
+      "category": "home"
+    },
+    {
+      "id": "yl-thieves-cleaner",
+      "name": "Thieves Household Cleaner",
+      "store": "Young Living",
+      "price": "$129.61",
+      "url": "https://www.youngliving.com/us/en/product/thieves-household-cleaner",
+      "img": "images/yl-thieves-cleaner.webp",
+      "options": [
+        [
+          "Size",
+          "64 fl oz"
+        ]
+      ],
+      "notes": "",
+      "category": "home"
+    },
+    {
+      "id": "yl-messy-moments",
+      "name": "Thieves Messy Moments Collection",
+      "store": "Young Living",
+      "price": "$52.30",
+      "url": "https://www.youngliving.com/us/en/product/thieves-messy-moments",
+      "img": "images/yl-messy-moments.webp",
+      "options": [],
+      "notes": "",
+      "category": "home"
+    },
+    {
+      "id": "yl-amber-dish-bottle",
+      "name": "Amber Dish Soap Dispenser",
+      "store": "Young Living",
+      "price": "$10.53",
+      "url": "https://www.youngliving.com/us/en/product/amber-dish-soap-bottle",
+      "img": "images/yl-amber-bottle.webp",
+      "options": [
+        [
+          "Type",
+          "Empty pump bottle"
+        ]
+      ],
+      "notes": "",
+      "category": "home"
+    }
+  ]
+}
+</script>
+
+<div class="garland" aria-hidden="true"></div>
+<div class="wrap">
+  <header class="top">
+    <p class="hand">To Mom, Kim, Dad, and Roy</p>
+    <h1>Anna Marie's Christmas List</h1>
+    <nav class="tabs" aria-label="Pages">
+      <a class="tab" id="tab-list" href="#wish-list">The Wish List</a>
+      <a class="tab tab-grand" id="tab-grand" href="#grand-gift"><span class="star" aria-hidden="true">&#10022;</span> The Grand Gift</a>
+    </nav>
+  </header>
+
+  <div class="view" id="view-list">
+  <div class="top">
+    <section class="letter" aria-label="A note from Anna Marie">
+      <svg class="bow" viewBox="0 0 120 94" aria-hidden="true">
+        <defs>
+          <linearGradient id="velvet" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D3283A"/><stop offset=".55" stop-color="#B01421"/><stop offset="1" stop-color="#7C0A15"/></linearGradient>
+          <linearGradient id="velvet-knot" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8E0C18"/><stop offset=".5" stop-color="#C91F30"/><stop offset="1" stop-color="#8E0C18"/></linearGradient>
+        </defs>
+        <path d="M55 46 L38 90 L46 84 L51 93 L64 50 Z" fill="url(#velvet)"/>
+        <path d="M65 46 L82 90 L74 84 L69 93 L56 50 Z" fill="url(#velvet)"/>
+        <path d="M60 40 C42 12 10 6 6 28 C3 46 30 52 60 45 Z" fill="url(#velvet)"/>
+        <path d="M60 40 C78 12 110 6 114 28 C117 46 90 52 60 45 Z" fill="url(#velvet)"/>
+        <path d="M60 42 C46 26 26 22 22 31 C20 38 40 43 60 43 Z" fill="#4A0710" opacity=".3"/>
+        <path d="M60 42 C74 26 94 22 98 31 C100 38 80 43 60 43 Z" fill="#4A0710" opacity=".3"/>
+        <path d="M14 22 C22 14 36 16 46 26" stroke="#F0646C" stroke-width="2" fill="none" opacity=".4" stroke-linecap="round"/>
+        <path d="M106 22 C98 14 84 16 74 26" stroke="#F0646C" stroke-width="2" fill="none" opacity=".4" stroke-linecap="round"/>
+        <rect x="51" y="33" width="18" height="18" rx="6" fill="url(#velvet-knot)"/>
+      </svg>
+      <p>What a blessing it is to have had 28 truly special Christmases. Even now that I'm grown, you still make it a point to keep the magic going for us, and I never take that for granted. I love you all so much, and I'm grateful for you every day of the year, not just in December.</p>
+      <p>Whatever you choose from this list, or anything extra, I will keep forever. Every gift will be held close to my heart, knowing who it came from. Thank you for these years and moments. I'll hold them in my heart always.</p>
+      <p class="sign">Love, Anna Marie</p>
+    </section>
+    <a class="gg-teaser" href="#grand-gift">
+      <span class="gg-teaser-pics" aria-hidden="true">
+        <img src="images/gg/kid-brothers.webp" alt="">
+        <img src="images/gg/kid-backyard.webp" alt="">
+      </span>
+      <span class="gg-teaser-text">
+        <span class="gg-teaser-eyebrow">One more thing&hellip;</span>
+        <span class="gg-teaser-title">Anna Marie's Super Wow Grand Gift</span>
+        <span class="gg-teaser-sub">The gift I want most can't be wrapped. For Dad &amp; Kim.</span>
+      </span>
+      <span class="gg-teaser-go">View Anna Marie's GRAND GIFT REQUEST <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    <p class="lede">Tap <b>Buy</b> to open the store page. When you order something, text the group so nobody buys it twice.</p>
+    <div class="bar">
+      <p class="summary" id="summary"></p>
+      <div class="seg" role="group" aria-label="Show gifts">
+        <button type="button" id="f-all" data-f="all" aria-pressed="true">All</button>
+        <button type="button" id="f-needed" data-f="needed" aria-pressed="false">Still needed</button>
+        <button type="button" id="f-bought" data-f="bought" aria-pressed="false">Bought</button>
+      </div>
+    </div>
+    <p class="status" id="status" role="status" hidden></p>
+    <label class="spoil" id="spoil-wrap" hidden><input type="checkbox" id="spoil"> Hide what's been bought on this device (only you see this switch)</label>
+  </div>
+
+  <p class="example-note" id="ex-note" hidden><b>Preview:</b> these are example gifts to show how the list works. Anna Marie's real list is coming soon.</p>
+
+  <nav class="cat-nav" id="cat-nav" aria-label="Jump to a category" hidden></nav>
+
+  <main id="list"></main>
+  </div>
+
+  <div class="view gg" id="view-grand" hidden>
+    <section class="gg-hero">
+      <p class="gg-eyebrow">Anna Marie's Super Wow Grand Gift</p>
+      <h2>The gift I want most can't be wrapped.</h2>
+      <p class="gg-lede">Dad and Kim, this one is just for you two. It's not on a shelf anywhere. It's a few days away with my brothers and sisters, just us kids, and it can only happen with your help.</p>
+      <div class="polaroids">
+        <figure class="polaroid" style="--r:-6deg"><img src="images/gg/kid-trampoline.webp" data-full="images/gg/large/kid-trampoline.webp" alt="Three siblings together on the trampoline"><figcaption>Trampoline days</figcaption></figure>
+        <figure class="polaroid" style="--r:4deg"><img src="images/gg/kid-mouse.webp" data-full="images/gg/large/kid-mouse.webp" alt="Siblings smiling together as kids on a big day out"><figcaption>Big smiles, bigger day</figcaption></figure>
+        <figure class="polaroid" style="--r:-3deg"><img src="images/gg/kid-headsets.webp" data-full="images/gg/large/kid-headsets.webp" alt="Two sisters smiling with headset microphones"><figcaption>Mic check!</figcaption></figure>
+        <figure class="polaroid" style="--r:5deg"><img src="images/gg/kid-wall.webp" alt="Five siblings sitting in a row on a stone wall"><figcaption>All in a row</figcaption></figure>
+        <figure class="polaroid" style="--r:-5deg"><img src="images/gg/kid-brothers.webp" data-full="images/gg/large/kid-brothers.webp" alt="Two brothers in ball caps"><figcaption>The brothers</figcaption></figure>
+      </div>
+      <p class="gg-cue">There's a little story first. Keep scrolling.</p>
+    </section>
+
+    <section class="gg-sec">
+      <h3>Remember us?</h3>
+      <p>Look at us. All of us, blended together as one. Somewhere along the way, kids from two families became brothers and sisters. That didn't happen by accident. <b>You guys</b> made it happen, one holiday, one road trip, one Christmas morning at a time.</p>
+      <p>Now we're all grown. We have jobs, some of us have spouses, some have kids of their own, and calendars that never seem to align. We still love each other just as much. We just don't get to be together the way we were in these pictures&hellip; and I miss it.</p>
+      <p class="gg-tip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21M10.5 7.5v6M7.5 10.5h6"/></svg><span><span class="tip-verb">Tap</span> any photo to see it up close</span></p>
+    </section>
+    <div class="scrapbook">
+      <figure class="polaroid" style="--r:-3deg"><img src="images/gg/kid-crew.webp" data-full="images/gg/large/kid-crew.webp" alt="Four siblings sitting together" loading="lazy"><figcaption>The whole crew</figcaption></figure>
+      <figure class="polaroid" style="--r:3deg"><img src="images/gg/kid-hats.webp" data-full="images/gg/large/kid-hats.webp" alt="Three sisters in hats and hoodies" loading="lazy"><figcaption>Hats &amp; hoodies</figcaption></figure>
+      <figure class="polaroid" style="--r:-2deg"><img src="images/gg/kid-ride.webp" data-full="images/gg/large/kid-ride.webp" alt="Three sisters on a ride" loading="lazy"><figcaption>Hold on tight!</figcaption></figure>
+      <figure class="polaroid" style="--r:4deg"><img src="images/gg/kid-dinner.webp" data-full="images/gg/large/kid-dinner.webp" alt="Siblings giggling at dinner" loading="lazy"><figcaption>Dinner-table giggles</figcaption></figure>
+      <figure class="polaroid" style="--r:-4deg"><img src="images/gg/kid-laugh-1.webp" data-full="images/gg/large/kid-laugh-1.webp" alt="A big sister laughing with her little sister nearby" loading="lazy"><figcaption>Best laugh ever</figcaption></figure>
+      <figure class="polaroid" style="--r:2deg"><img src="images/gg/kid-laugh-2.webp" data-full="images/gg/large/kid-laugh-2.webp" alt="Still laughing together" loading="lazy"><figcaption>Still laughing</figcaption></figure>
+      <figure class="polaroid" style="--r:-2deg"><img src="images/gg/kid-faces.webp" data-full="images/gg/large/kid-faces.webp" alt="Two sisters making silly faces" loading="lazy"><figcaption>Silly faces forever</figcaption></figure>
+      <figure class="polaroid" style="--r:3deg"><img src="images/gg/kid-horse.webp" data-full="images/gg/large/kid-horse.webp" alt="Two sisters riding one horse" loading="lazy"><figcaption>Two riders, one horse</figcaption></figure>
+      <figure class="polaroid" style="--r:-3deg"><img src="images/gg/kid-backyard.webp" data-full="images/gg/large/kid-backyard.webp" alt="Siblings playing together in the backyard" loading="lazy"><figcaption>Backyard adventures</figcaption></figure>
+      <figure class="polaroid" style="--r:3deg"><img src="images/gg/kid-boat.webp" data-full="images/gg/large/kid-boat.webp" alt="Two sisters on a boat day" loading="lazy"><figcaption>Boat days</figcaption></figure>
+      <figure class="polaroid" style="--r:-2deg"><img src="images/gg/kid-airport.webp" alt="Six siblings lined up together at the airport" loading="lazy"><figcaption>Ready for takeoff</figcaption></figure>
+      <figure class="polaroid" style="--r:4deg"><img src="images/gg/kid-meadow.webp" alt="Five siblings standing together in a grassy meadow" loading="lazy"><figcaption>Out in the meadow</figcaption></figure>
+    </div>
+
+    <section class="gg-sec gg-wide gg-data" aria-labelledby="gg-data-title">
+      <h3 id="gg-data-title">Then vs. now</h3>
+      <p>I did the math. Well, my best guess at it. Here's what has happened to our time together.</p>
+      <figure class="trend">
+        <div class="trend-grid">
+          <div class="trend-chart">
+            <p class="trend-h"><b>Days a year all five of us were together</b><span>2002 to today, my best estimates</span></p>
+            <div id="trend"></div>
+            <p class="trend-tip">Tap or hover on the chart to see what happened each year.</p>
+          </div>
+          <div class="cmp" role="list" aria-label="Average days a year together, then vs. now">
+            <p class="trend-h"><b>Then vs. now</b><span>Average days a year together</span></p>
+            <div class="cmp-row" role="listitem"><div class="cmp-lab"><b>Growing up</b><span>2002–09</span></div><div class="cmp-track"><span class="cmp-bar" style="--w:1"></span><span class="cmp-val">85 <small>days</small></span></div></div>
+            <div class="cmp-row" role="listitem"><div class="cmp-lab"><b>College years</b><span>2010–16</span></div><div class="cmp-track"><span class="cmp-bar" style="--w:0.3765"></span><span class="cmp-val">32 <small>days</small></span></div></div>
+            <div class="cmp-row" role="listitem"><div class="cmp-lab"><b>Grown and married</b><span>2017–today</span></div><div class="cmp-track"><span class="cmp-bar" style="--w:0.0941"></span><span class="cmp-val">8 <small>days</small></span></div></div>
+            <div class="cmp-row" role="listitem"><div class="cmp-lab"><b>Today</b><span>2026</span></div><div class="cmp-track"><span class="cmp-bar" style="--w:0.0588"></span><span class="cmp-val">5 <small>days</small></span></div></div>
+          </div>
+        </div>
+        <div class="ms-wrap">
+          <p class="trend-h"><b>What happened when</b></p>
+          <ol class="ms" id="ms"></ol>
+        </div>
+      </figure>
+
+      <div class="gg-stats">
+        <div class="stat"><p class="stat-v">17 years</p><p class="stat-l">How long it would take us today to get the time together we used to have in a single year.</p></div>
+        <div class="stat"><p class="stat-v">~680 days</p><p class="stat-l">Together before Ashley left for college. That's almost two whole years.</p></div>
+        <div class="stat"><p class="stat-v">45 minutes</p><p class="stat-l">The farthest any of us lives from the rest. Distance isn't what keeps us apart. Busy lives do.</p></div>
+        <div class="stat"><p class="stat-v">4 out of 5</p><p class="stat-l">Of all the days we'll ever spend together, that's how many are already behind us if nothing changes.</p></div>
+      </div>
+
+      <p class="gg-big">One 4-night trip would give us as much time together as a whole year does right now.</p>
+
+      <details class="gg-how">
+        <summary>How I counted</summary>
+        <div class="gg-how-body">
+          <p>These are my best estimates from what I remember, not exact records.</p>
+          <table>
+            <thead><tr><th scope="col">Years</th><th scope="col">What changed</th><th scope="col" class="n">Days a year</th></tr></thead>
+            <tbody id="how-rows"></tbody>
+          </table>
+          <p><b>Back then:</b> every other weekend during the school year (about 40 days), every other week all summer (about 35), holidays (about 6) and a family trip every other year (about 3 a year on average).</p>
+          <p><b>After that:</b> I counted only the days all five of us were actually together, like holidays, school breaks, summers and trips.</p>
+          <p><b>4 out of 5:</b> about 990 days together so far, compared with about 250 more if we keep seeing each other around 5 days a year for the next 50 years.</p>
+        </div>
+      </details>
+    </section>
+
+    <section class="gg-sec gg-wide" aria-labelledby="gg-now-title">
+      <h3 id="gg-now-title">Why now, not someday</h3>
+      <p class="gg-big">I don't want to wait two or three more years for this. I want us to start planning this Christmas and go in 2027.</p>
+      <p>Look at that chart. Every year we put it off, there are more schedules to work around and fewer days to work with. By next year there will be seven grandkids. Life isn't going to slow down on its own, so the best time to start is right now.</p>
+    </section>
+
+    <section class="gg-sec">
+      <h3>My Christmas wish</h3>
+      <p class="gg-big">A siblings-only trip. All of us kids, together, for a long weekend or a few days. No spouses, no to-do lists, no rushing. Just time to laugh like we did in these pictures and get to really know each other as the adults we've become.</p>
+      <p>Here's the honest part: I can't make this happen on my own. When an invitation comes from me, it gets lost in the group chat. When it comes from Dad and Kim, everyone finds a way. That's why I'm asking you.</p>
+      <p class="gg-note"><b>To be clear, I'm not asking you to pay for this.</b>We'll each cover our own way. What I need is your support: your buy-in, your voice to get everyone on board, and your help actually making it happen.</p>
+      <h4>What I'm asking for</h4>
+      <ol class="gg-asks">
+        <li><b>Get it started.</b> Send the invitation and tell everyone it matters to you. Your word is what gets all of us to say yes. I'm happy to write the message for you.</li>
+        <li><b>Help us lock in the dates.</b> Help us pick a weekend that works, then hold us to it.</li>
+        <li><b>Host a grandparents' weekend.</b> Watch the grandkids for those few nights so their parents can come too.</li>
+      </ol>
+    </section>
+
+    <section class="gg-sec gg-wide">
+      <h3>Why this matters so much to me</h3>
+      <div class="gg-why">
+        <div class="why"><h5>Time is the one thing we can't get back.</h5><p>We'll never be exactly this age, all together, again. Right now the kids are little, everyone is healthy, and we can still say yes. Every year we wait, it gets a little harder to pull off.</p></div>
+        <div class="why"><h5>We're a blended family, so this matters even more.</h5><p>We didn't all grow up under one roof the whole time. The bond between us was built on purpose, by you. This trip is how we keep building it ourselves, as adults, so it lasts long after we're the ones hosting Christmas.</p></div>
+        <div class="why"><h5>Experiences outlast things.</h5><p>Psychologists Leaf Van Boven and Tom Gilovich found that experiences bring people more lasting happiness than possessions do. We keep reliving and retelling them, and they become part of who we are. Everything else on my list will wear out someday. This won't.</p></div>
+        <div class="why"><h5>Close relationships are what make a good life.</h5><p>The Harvard Study of Adult Development has followed people's lives for more than 80 years, and its clearest finding is that close relationships keep us happier and healthier as we age. My brothers and sisters are the people I'll know the longest of anyone in my life. I want us to stay close for all of it.</p></div>
+        <div class="why why-wide"><h5>It's your legacy.</h5><p>You spent years bringing two families together into one. This is what that looks like when it works: your kids choosing each other, on purpose, as grown-ups.</p></div>
+      </div>
+    </section>
+
+    <section class="gg-sec gg-wide">
+      <h3>Pick our adventure</h3>
+      <p>Any of these would be a dream come true. You choose.</p>
+      <div class="trips">
+        <article class="trip">
+          <img src="images/gg/trip-seaside.webp" alt="All of us siblings together in Seaside, Florida" loading="lazy">
+          <div class="trip-body">
+            <p class="trip-tag">The easy yes</p>
+            <h5>Seaside, Florida</h5>
+            <p class="trip-len">2 nights</p>
+            <p>A short drive from home. Bikes, beach days, sunsets, and staying up way too late talking on the porch. Low cost, low stress, big memories.</p>
+          </div>
+        </article>
+        <article class="trip">
+          <img src="images/gg/trip-napa.webp" alt="All of us siblings together in Napa Valley" loading="lazy">
+          <div class="trip-body">
+            <p class="trip-tag">The grown-up getaway</p>
+            <h5>Napa Valley, California</h5>
+            <p class="trip-len">4 nights</p>
+            <p>Vineyards, long dinners, raising a glass to the two of you, and the conversations we never have time for at home.</p>
+          </div>
+        </article>
+        <article class="trip">
+          <img src="images/gg/trip-jackson.webp" alt="All of us siblings together in Jackson Hole" loading="lazy">
+          <div class="trip-body">
+            <p class="trip-tag">The trip of a lifetime</p>
+            <h5>Jackson Hole, Wyoming</h5>
+            <p class="trip-len">4 nights</p>
+            <p>Teton views, hikes, maybe horseback riding again (we've had some practice), and nights around a fire.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="gg-sec gg-soft">
+      <h3>The grandkids get a trip too</h3>
+      <p>While we're all away, the grandkids get something special of their own: a few nights with their grandparents! Years from now, they'll remember that weekend too.</p>
+    </section>
+
+    <section class="gg-sec">
+      <h3>Here's my part</h3>
+      <ul class="gg-checks">
+        <li>I'll handle as much as I can and coordinate with the siblings once everyone is locked in and on board.</li>
+        <li>I'll send you every photo, and we'll come home with stories to tell around your table.</li>
+      </ul>
+    </section>
+
+    <section class="gg-future">
+      <figure class="polaroid" style="--r:-3deg"><img src="images/gg/trip-jackson-5.webp" data-full="images/gg/large/trip-jackson-5.webp" alt="Some of us siblings together in the mountains" loading="lazy"><figcaption>Someday soon?</figcaption></figure>
+      <div>
+        <blockquote>Picture it: twenty years from now, we're all around your table at Christmas, and someone says, &ldquo;Remember that trip?&rdquo; And everyone starts laughing all over again.</blockquote>
+        <p>That's what you'd be giving us. A story we'll tell for the rest of our lives, and the reason we stayed close. Of all the Christmases you've given us, this could be the one we talk about forever.</p>
+      </div>
+    </section>
+
+    <section class="gg-cta" aria-labelledby="gg-cta-title">
+      <h3 id="gg-cta-title">So&hellip; what do you say?</h3>
+      <p class="gg-cta-q">Which adventure should it be?</p>
+      <div class="gg-chips" role="group" aria-label="Pick a trip">
+        <button type="button" data-trip="seaside" aria-pressed="false">Seaside</button>
+        <button type="button" data-trip="napa" aria-pressed="false">Napa</button>
+        <button type="button" data-trip="jackson" aria-pressed="false">Jackson Hole</button>
+        <button type="button" data-trip="any" aria-pressed="false">You pick, Anna Marie</button>
+      </div>
+      <button type="button" class="gg-yes" id="gg-yes">We're in! Let's make it happen</button>
+      <p class="gg-answer" id="gg-answer" role="status" hidden></p>
+      <p class="gg-fine" id="gg-fine">No money needed, just your yes. Tapping this opens a text to Anna Marie with your answer.</p>
+      <p class="gg-sign">With all my love and a whole lot of hope,<br>Anna Marie</p>
+    </section>
+  </div>
+  <canvas id="gg-snow" aria-hidden="true"></canvas>
+
+  <dialog class="lb" id="lb" aria-label="Photo viewer">
+    <div class="lb-stage" id="lb-stage">
+      <figure class="lb-frame"><img id="lb-img" alt="" draggable="false"><figcaption id="lb-cap"></figcaption></figure>
+    </div>
+    <p class="lb-bar"><span class="lb-count" id="lb-count"></span><span class="lb-dot" aria-hidden="true">&middot;</span><span id="lb-hint">Tap the photo to zoom in</span></p>
+    <button type="button" class="lb-btn lb-close" id="lb-close" aria-label="Close photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    <button type="button" class="lb-btn lb-prev" id="lb-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <button type="button" class="lb-btn lb-next" id="lb-next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
+  </dialog>
+
+  <footer><span class="merry">Merry Christmas</span><span><span class="star" aria-hidden="true">&#10022;</span> 2026 <span class="star" aria-hidden="true">&#10022;</span></span></footer>
+</div>
+
+<script>
+document.body.classList.add('nospoil');
+(function () {
+  const DATA = JSON.parse(document.getElementById('items-data').textContent);
+  const ITEMS = DATA.items || [];
+  const SETS = DATA.sets || [];
+  const GROUPS = [
+    { key: 'top', title: 'Top picks' },
+    { key: 'nice', title: 'Also on the list' }
+  ];
+  const ICON_GIFT = '<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="7" y="18" width="34" height="8" rx="1.5"/><path d="M10 26v15h28V26"/><path d="M24 18v23"/><path d="M24 18c-3-6-11-8-11-3 0 3 6 3 11 3z"/><path d="M24 18c3-6 11-8 11-3 0 3-6 3-11 3z"/></svg>';
+  const ICON_OUT = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h4v4"/><path d="M13 3L7 9"/><path d="M12 9.5V13H3V4h3.5"/></svg>';
+  const ICON_CHECK = '<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7.5l2.6 2.6L11 4.5"/></svg>';
+
+  const state = { bought: {}, filter: 'all', spoil: false, dbOn: false, canWrite: true, loaded: false, busy: new Set() };
+  let db = null, user = null, myId = null;
+
+  const $ = (id) => document.getElementById(id);
+  function el(tag, cls, text) { const n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function showStatus(msg, kind) { const s = $('status'); s.textContent = msg; s.hidden = !msg; s.dataset.kind = kind || ''; }
+
+  // ---------- build ----------
+  function buildCard(item) {
+    const card = el('article', 'card');
+    card.id = 'card-' + item.id;
+
+    const photo = el('a', 'photo');
+    photo.href = item.url; photo.target = '_blank'; photo.rel = 'noopener';
+    photo.setAttribute('aria-label', 'Open ' + item.name + ' at ' + item.store);
+    if (item.img) {
+      const img = new Image(); img.src = item.img; img.alt = item.name; img.loading = 'lazy'; photo.append(img);
+    } else {
+      photo.classList.add('ph-empty');
+      photo.innerHTML = ICON_GIFT;
+      photo.append(el('span', null, 'Photo'));
+    }
+    if (item.priority === 'top') photo.append(el('span', 'badge', 'Top pick'));
+    photo.append(el('span', 'ribbon', 'Bought'));
+    card.append(photo);
+
+    const body = el('div', 'card-body');
+    if (item.example) { const eb = el('div', 'eyebrow'); eb.append(el('span', 'ex-tag', 'Example')); body.append(eb); }
+
+    const h = el('h3', 'name'); const a = el('a', null, item.name);
+    a.href = item.url; a.target = '_blank'; a.rel = 'noopener'; h.append(a); body.append(h);
+
+    const meta = el('div', 'meta');
+    meta.append(el('span', 'store', item.store));
+    if (item.price) meta.append(el('span', 'tag', item.price + (item.qty > 1 ? ' each' : '')));
+    body.append(meta);
+
+    if (item.options && item.options.length) {
+      const opts = el('dl', 'opts');
+      item.options.forEach(([k, v]) => { const o = el('div', 'opt'); o.append(el('dt', null, k), el('dd', null, v)); opts.append(o); });
+      body.append(opts);
+    }
+    if (item.notes) body.append(el('p', 'notes', item.notes));
+
+    const actions = el('div', 'actions');
+    const buy = el('a', 'buy');
+    buy.href = item.url; buy.target = '_blank'; buy.rel = 'noopener';
+    buy.setAttribute('aria-label', 'Buy ' + item.name + ' at ' + item.store);
+    buy.append(document.createTextNode('Buy '));
+    buy.insertAdjacentHTML('beforeend', ICON_OUT);
+    actions.append(buy);
+
+    const got = el('label', 'got'); got.htmlFor = 'b-' + item.id;
+    const input = el('input'); input.type = 'checkbox'; input.id = 'b-' + item.id;
+    input.addEventListener('change', () => setBought(item.id, input.checked));
+    const box = el('span', 'got-box'); box.innerHTML = ICON_CHECK;
+    const meta2 = el('span', 'got-meta'); meta2.hidden = true;
+    got.append(input, box, el('span', 'got-text', 'We bought this'), meta2);
+    actions.append(got);
+
+    body.append(actions);
+    card.append(body);
+    return card;
+  }
+
+  const toNum = (p) => Number(String(p || '').replace(/[^0-9.]/g, '')) || 0;
+  function buildSet(set, items) {
+    const wrap = el('div', 'set' + (items.length >= 3 ? ' n3' : '')); wrap.id = 'set-' + set.id;
+    const head = el('div', 'set-head');
+    const t = el('p', 'set-title'); t.append(el('span', 'set-eyebrow', 'Buy as a set'), document.createTextNode(set.title));
+    head.append(t);
+    const total = items.reduce((s, i) => s + toNum(i.price) * (i.qty || 1), 0);
+    if (total) head.append(el('span', 'tag', '$' + total.toLocaleString('en-US') + ' total'));
+    wrap.append(head);
+    if (set.note) wrap.append(el('p', 'set-note', set.note));
+    const inner = el('div', 'set-grid');
+    items.forEach((i) => inner.append(buildCard(i)));
+    wrap.append(inner);
+    return wrap;
+  }
+
+  function build() {
+    const list = $('list');
+    const CATS = DATA.categories || [];
+    const hasCats = CATS.length > 0 && ITEMS.some((i) => i.category);
+    const hasTop = ITEMS.some((i) => i.priority === 'top');
+    const catOf = (i) => (CATS.some((c) => c.key === i.category) ? i.category : '_other');
+    const groups = hasCats ? CATS.concat([{ key: '_other', title: 'More gifts' }]) : hasTop ? GROUPS : [{ key: 'all', title: null }];
+    const nav = $('cat-nav');
+    groups.forEach((g) => {
+      const items = hasCats ? ITEMS.filter((i) => catOf(i) === g.key)
+        : hasTop ? ITEMS.filter((i) => (i.priority === 'top' ? 'top' : 'nice') === g.key) : ITEMS;
+      if (!items.length) return;
+      const sec = el('section', 'group'); sec.id = 'group-' + g.key;
+      if (hasCats) {
+        const a = el('a', null, g.title); a.href = '#group-' + g.key;
+        a.append(el('span', null, String(items.length)));
+        nav.append(a);
+      }
+      if (g.title) { const h2 = el('h2', null, g.title); h2.append(el('span', 'count')); sec.append(h2); }
+      const grid = el('div', 'grid');
+      const done = new Set();
+      items.forEach((i) => {
+        const set = i.set && SETS.find((s) => s.id === i.set);
+        if (!set) { grid.append(buildCard(i)); return; }
+        if (done.has(set.id)) return;
+        done.add(set.id);
+        grid.append(buildSet(set, items.filter((x) => x.set === set.id)));
+      });
+      sec.append(grid);
+      const empty = el('p', 'empty', 'Nothing here right now.'); empty.hidden = true; sec.append(empty);
+      list.append(sec);
+    });
+    $('ex-note').hidden = !ITEMS.some((i) => i.example);
+    nav.hidden = !hasCats;
+  }
+
+  // ---------- update ----------
+  function fmtDate(iso) { try { return new Date(iso).toLocaleDateString(undefined, { month: 'short', day: 'numeric' }); } catch (e) { return ''; } }
+
+  function applyCard(item) {
+    const card = $('card-' + item.id); if (!card) return;
+    const b = state.bought[item.id];
+    card.classList.toggle('is-bought', !!b);
+    const input = $('b-' + item.id);
+    input.checked = !!b;
+    input.disabled = !state.dbOn || !state.canWrite || state.busy.has(item.id);
+    card.querySelector('.got-text').textContent = b ? 'Bought' : 'We bought this';
+    const m = card.querySelector('.got-meta');
+    if (b) {
+      m.textContent = '';
+      if (b.by) { m.append('by '); const who = el('span', null, 'someone'); who.dataset.by = b.by; m.append(who); }
+      const d = b.at ? fmtDate(b.at) : '';
+      if (d) m.append((b.by ? ' · ' : '') + d);
+      m.hidden = !m.textContent;
+    } else { m.hidden = true; m.textContent = ''; }
+    const f = state.spoil ? 'all' : state.filter;
+    card.hidden = (f === 'needed' && !!b) || (f === 'bought' && !b);
+  }
+
+  function applyAll() {
+    ITEMS.forEach(applyCard);
+    document.querySelectorAll('.set').forEach((s) => {
+      const cards = [...s.querySelectorAll('.card')];
+      s.hidden = cards.every((c) => c.hidden);
+      s.classList.toggle('one-left', cards.filter((c) => !c.hidden).length === 1);
+    });
+    document.querySelectorAll('.group').forEach((sec) => {
+      const cards = [...sec.querySelectorAll('.card')];
+      const vis = cards.filter((c) => !c.hidden).length;
+      const cnt = sec.querySelector('.count');
+      if (cnt) cnt.textContent = cards.length + (cards.length === 1 ? ' gift' : ' gifts');
+      sec.querySelector('.empty').hidden = vis > 0;
+      sec.querySelector('.grid').hidden = vis === 0;
+    });
+    const n = ITEMS.length;
+    const k = ITEMS.filter((i) => state.bought[i.id]).length;
+    const s = $('summary'); s.textContent = '';
+    s.append(n + (n === 1 ? ' gift' : ' gifts'));
+    if (state.dbOn && state.loaded) {
+      const b1 = el('span', 'b'); b1.append(el('span', 'sep', '·')); b1.append(el('span', 'ok', k + ' bought')); s.append(b1);
+      const b2 = el('span', 'b'); b2.append(el('span', 'sep', '·')); b2.append((n - k) + ' still needed'); s.append(b2);
+    }
+    document.querySelectorAll('.seg button').forEach((btn) => btn.setAttribute('aria-pressed', String(btn.dataset.f === state.filter)));
+    $('f-needed').closest('.seg').hidden = !state.dbOn;
+    paintNames();
+  }
+
+  async function paintNames() {
+    if (!user) return;
+    const ids = [...new Set(Object.values(state.bought).map((b) => b && b.by).filter(Boolean))];
+    if (!ids.length) return;
+    let ps;
+    try { ps = await user.profiles(ids); } catch (e) { return; }
+    document.querySelectorAll('[data-by]').forEach((n) => {
+      const p = ps[n.dataset.by];
+      n.textContent = p && p.isMe ? 'you' : (p && p.name ? p.name.split(' ')[0] : 'someone');
+    });
+  }
+
+  // ---------- writes ----------
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  function handleWriteError(e) {
+    if (e && e.code === 'invalid_argument') {
+      state.canWrite = false;
+      showStatus("You can see the list, but checking items off needs edit access. Ask Anna Marie to share it with you as an Editor.");
+    } else if (e && e.code === 'revoked') {
+      state.dbOn = false;
+      showStatus('Checkmarks are turned off for this visit.');
+    } else {
+      showStatus("That checkmark didn't save. Try again in a moment.", 'write');
+    }
+  }
+  async function setBought(id, on) {
+    if (!db || state.busy.has(id)) return;
+    state.busy.add(id);
+    const item = ITEMS.find((i) => i.id === id); applyCard(item);
+    const ref = db.doc('bought/' + id);
+    const attempt = () => (on ? ref.set({ by: myId || null, at: new Date().toISOString() }) : ref.delete());
+    try {
+      await attempt();
+      if ($('status').dataset.kind === 'write') showStatus('');
+    } catch (e) {
+      if (e && e.code === 'unavailable') {
+        await sleep(400 + Math.random() * 600);
+        try { await attempt(); } catch (e2) { handleWriteError(e2); }
+      } else handleWriteError(e);
+    } finally {
+      state.busy.delete(id);
+      applyAll();
+    }
+  }
+
+  // ---------- controls ----------
+  document.querySelectorAll('.seg button').forEach((btn) => btn.addEventListener('click', () => { state.filter = btn.dataset.f; applyAll(); }));
+  $('spoil').addEventListener('change', (e) => {
+    state.spoil = e.target.checked;
+    document.body.classList.toggle('nospoil', state.spoil);
+    try { localStorage.setItem('anna-xmas-nospoil', state.spoil ? '1' : '0'); } catch (err) {}
+    applyAll();
+  });
+
+  // ---------- start ----------
+  build();
+  applyAll();
+
+  async function connect() {
+    const api = window.claude;
+    if (!api || typeof api.use !== 'function') {
+      return;
+    }
+    let pair;
+    try { pair = await Promise.all([api.use('db'), api.use('user')]); } catch (e) { pair = [null, null]; }
+    db = pair[0]; user = pair[1];
+
+    if (user) {
+      try { myId = await user.id(); } catch (e) {}
+      try {
+        if (await user.isOwner()) {
+          $('spoil-wrap').hidden = false;
+          let saved = null; try { saved = localStorage.getItem('anna-xmas-nospoil'); } catch (e) {}
+          if (saved === '1') { $('spoil').checked = true; state.spoil = true; document.body.classList.add('nospoil'); }
+        }
+      } catch (e) {}
+      try { if ((await user.can('data.write')) === false) state.canWrite = false; } catch (e) {}
+    }
+
+    if (!db) {
+      showStatus('Sign in to Claude and open the invite Anna Marie sent to check gifts off. You can still browse and buy from here.');
+      applyAll();
+      return;
+    }
+
+    state.dbOn = true;
+    if (!state.canWrite) showStatus("You can see the list, but checking items off needs edit access. Ask Anna Marie to share it with you as an Editor.");
+    applyAll();
+
+    const timer = setTimeout(() => {
+      if (!state.loaded) showStatus("Still loading what's been bought. This updates on its own once it connects.");
+    }, 10000);
+
+    db.collection('bought').onSnapshot((snap) => {
+      const next = {};
+      snap.docs.forEach((d) => { if (d.exists) next[d.id] = d.data(); });
+      state.bought = next;
+      if (!snap.metadata.fromCache && !state.loaded) {
+        state.loaded = true; clearTimeout(timer);
+        if (/Still loading/.test($('status').textContent)) showStatus('');
+      }
+      applyAll();
+    }, (err) => {
+      clearTimeout(timer);
+      state.dbOn = false; state.loaded = false;
+      showStatus("Checkmarks can't load right now. Reload the page to try again.");
+      applyAll();
+    });
+
+    db.doc('grand/answer').onSnapshot((snap) => {
+      gg.answer = snap.exists ? snap.data() : null;
+      if (gg.answer && gg.answer.trip && !gg.picked) gg.trip = gg.answer.trip;
+      renderGG();
+    }, () => {});
+  }
+
+  // ---------- pages (wish list / grand gift) ----------
+  function route() {
+    const grand = location.hash === '#grand-gift';
+    $('view-list').hidden = grand;
+    $('view-grand').hidden = !grand;
+    $('tab-list').setAttribute('aria-current', grand ? 'false' : 'page');
+    $('tab-grand').setAttribute('aria-current', grand ? 'page' : 'false');
+  }
+  window.addEventListener('hashchange', () => {
+    route();
+    if (location.hash === '#grand-gift' || location.hash === '#wish-list') window.scrollTo({ top: 0, behavior: 'auto' });
+  });
+  route();
+
+  // ---------- grand gift answer ----------
+  const TRIPS = { seaside: 'Seaside', napa: 'Napa', jackson: 'Jackson Hole', any: "Anna Marie's pick" };
+  const gg = { trip: null, picked: false, answer: null, saving: false };
+  async function renderGG() {
+    document.querySelectorAll('.gg-chips button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.trip === gg.trip)));
+    const out = $('gg-answer');
+    const a = gg.answer;
+    if (a && a.yes) {
+      out.textContent = '';
+      out.append(el('b', null, "It's a yes!"));
+      let who = '';
+      if (a.by && user) { try { const ps = await user.profiles([a.by]); const p = ps[a.by]; who = p && p.isMe ? 'you' : (p && p.name ? p.name.split(' ')[0] : ''); } catch (e) {} }
+      const parts = [];
+      if (a.trip && TRIPS[a.trip]) parts.push('Trip: ' + TRIPS[a.trip]);
+      parts.push('Answered' + (who ? ' by ' + who : '') + (a.at ? ' on ' + fmtDate(a.at) : ''));
+      out.append(document.createTextNode(parts.join(' · ')));
+      out.hidden = false;
+      $('gg-yes').textContent = 'Update our answer';
+    } else if (!out.dataset.local) {
+      out.hidden = true;
+    }
+  }
+  document.querySelectorAll('.gg-chips button').forEach((b) => b.addEventListener('click', () => { gg.trip = b.dataset.trip; gg.picked = true; renderGG(); }));
+  $('gg-yes').addEventListener('click', async () => {
+    celebrate();
+    if (gg.saving) return;
+    const out = $('gg-answer');
+    if (!db || !state.canWrite) {
+      const pick = gg.trip && gg.trip !== 'any' ? TRIPS[gg.trip] : '';
+      const msg = "Anna Marie, we're in! Let's make the siblings' trip happen." + (pick ? ' Our pick: ' + pick + '.' : ' You pick the place!') + ' Love, ';
+      out.dataset.local = '1';
+      out.textContent = '';
+      out.append(el('b', null, 'Yay!'));
+      out.append(document.createTextNode('Your text to Anna Marie is ready. Add your names and hit send. She\'ll be over the moon.'));
+      out.hidden = false;
+      setTimeout(() => { location.href = 'sms:?&body=' + encodeURIComponent(msg); }, 900);
+      return;
+    }
+    gg.saving = true;
+    try {
+      await db.doc('grand/answer').set({ yes: true, trip: gg.trip || 'any', by: myId || null, at: new Date().toISOString() });
+    } catch (e) {
+      out.dataset.local = '1';
+      out.textContent = '';
+      out.append(el('b', null, 'Yay!'));
+      out.append(document.createTextNode("Your answer didn't save, so tell Anna Marie in person. She'll be over the moon."));
+      out.hidden = false;
+    } finally { gg.saving = false; }
+  });
+
+  function celebrate() {
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const cv = $('gg-snow'); const ctx = cv.getContext('2d'); if (!ctx) return;
+    const dpr = Math.min(window.devicePixelRatio || 1, 2);
+    cv.width = innerWidth * dpr; cv.height = innerHeight * dpr; cv.style.display = 'block';
+    const cols = ['#F3D894', '#FFFFFF', '#E9C77E', '#C64B5C', '#2B6142'];
+    const flakes = Array.from({ length: 140 }, () => ({ x: Math.random() * cv.width, y: -Math.random() * cv.height * 0.6, r: (2 + Math.random() * 4) * dpr, vy: (1.2 + Math.random() * 2.4) * dpr, vx: (Math.random() - 0.5) * 1.2 * dpr, c: cols[(Math.random() * cols.length) | 0], s: Math.random() < 0.5 }));
+    const t0 = performance.now();
+    (function frame(t) {
+      const el2 = t - t0;
+      ctx.clearRect(0, 0, cv.width, cv.height);
+      ctx.globalAlpha = el2 > 3800 ? Math.max(0, 1 - (el2 - 3800) / 900) : 1;
+      flakes.forEach((f) => {
+        f.y += f.vy; f.x += f.vx + Math.sin((t + f.r * 50) / 400) * 0.4 * dpr;
+        ctx.fillStyle = f.c;
+        if (f.s) { ctx.beginPath(); ctx.arc(f.x, f.y, f.r, 0, Math.PI * 2); ctx.fill(); }
+        else { ctx.save(); ctx.translate(f.x, f.y); ctx.rotate(f.y / 60); ctx.fillRect(-f.r, -f.r / 2.5, f.r * 2, f.r / 1.25); ctx.restore(); }
+      });
+      if (el2 < 4700) requestAnimationFrame(frame); else { ctx.clearRect(0, 0, cv.width, cv.height); cv.style.display = 'none'; }
+    })(t0);
+  }
+
+  // ---------- then vs. now ----------
+  const ERAS = [
+    { years: '2002–09', what: 'All five of us, every other weekend', days: 85 },
+    { years: '2010–12', what: 'Ashley leaves for college', days: 45 },
+    { years: '2013', what: 'Logan leaves for college', days: 30 },
+    { years: '2014–16', what: 'Bailey leaves for college, Ashley marries', days: 20 },
+    { years: '2017–19', what: 'Pierce and I leave for college, first two grandbabies', days: 12 },
+    { years: '2020–23', what: 'Our last ski trip, Bailey marries, more grandbabies', days: 8 },
+    { years: '2024–26', what: 'Logan and I marry, six grandkids', days: 5 },
+  ];
+  const daysFor = (y) => y <= 2009 ? 85 : y <= 2012 ? 45 : y === 2013 ? 30 : y <= 2016 ? 20 : y <= 2019 ? 12 : y <= 2023 ? 8 : 5;
+  const MILESTONES = [
+    [2002, '2002', 'Every-other-weekend schedule starts'],
+    [2003, '2003', 'Dad and Kim get married'],
+    [2010, '2010', 'Ashley leaves for college'],
+    [2013, '2013', 'Logan leaves for college'],
+    [2014, '2014', 'Bailey leaves for college'],
+    [2016, '2016', 'Ashley marries Drew'],
+    [2017, '2017', 'Pierce and I leave for college'],
+    [2017, '2017', 'First grandbaby arrives'],
+    [2018, 'Dec 2018', 'Second grandbaby arrives'],
+    [2020, 'Jan 2020', 'Our last family ski trip'],
+    [2020, '2020', 'Bailey marries Dave'],
+    [2023, '2023', "Bailey's first baby"],
+    [2024, '2024', 'Logan marries Avery, and I get married'],
+    [2025, '2025', "Bailey's second and Logan's first"],
+    [2026, 'Today', 'About 5 days a year all together', 'now'],
+    [2027, '2027', "Bailey's third on the way", 'next'],
+  ];
+  const PHASES = [[2002, 2009, 'Growing up', 'Growing up'], [2010, 2016, 'College years', 'College'], [2017, 2026, 'Grown and married', 'Married & kids']];
+  const pop = el('div', 'gg-pop'); pop.hidden = true; pop.setAttribute('aria-hidden', 'true'); document.body.append(pop);
+  function showPop(title, body, x, y) {
+    pop.textContent = ''; pop.append(el('b', null, title));
+    (Array.isArray(body) ? body : body ? [body] : []).forEach((line) => pop.append(el('div', null, line)));
+    pop.hidden = false;
+    const w = pop.offsetWidth, h = pop.offsetHeight;
+    let left = x + 14, top = y - h - 12;
+    if (left + w > innerWidth - 8) left = Math.max(8, x - w - 14);
+    if (top < 8) top = y + 18;
+    pop.style.left = left + 'px'; pop.style.top = top + 'px';
+  }
+  function hidePop() { pop.hidden = true; }
+  window.addEventListener('scroll', hidePop, { passive: true });
+  const howRows = $('how-rows');
+  ERAS.forEach((e) => { const tr = el('tr'); tr.append(el('td', null, e.years), el('td', null, e.what), el('td', 'n', String(e.days))); howRows.append(tr); });
+  const ms = $('ms');
+  MILESTONES.forEach(([, label, text, kind]) => { const li = el('li', kind || null); li.append(el('b', null, label), el('span', null, text)); ms.append(li); });
+
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  function S(tag, attrs, parent, text) { const n = document.createElementNS(SVGNS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); if (text != null) n.textContent = text; if (parent) parent.append(n); return n; }
+  const Y0 = 2002, Y1 = 2026, NY = Y1 - Y0 + 1;
+  const trendHost = $('trend');
+  const trend = { idx: null, geo: null };
+  function drawTrend() {
+    const W = Math.max(280, Math.round(trendHost.clientWidth)); if (!trendHost.clientWidth) return;
+    const narrow = W < 520, H = narrow ? 230 : 270;
+    const m = { l: 30, r: 10, t: 24, b: 24 }, pw = W - m.l - m.r, ph = H - m.t - m.b;
+    const bx = (y) => m.l + (y - Y0) / NY * pw, cx = (y) => bx(y) + pw / NY / 2, vy = (v) => m.t + (1 - v / 100) * ph;
+    trendHost.textContent = '';
+    const svg = S('svg', { class: 'trend-svg', width: W, height: H, viewBox: '0 0 ' + W + ' ' + H, role: 'img', tabindex: '0', 'aria-label': 'Line chart of days a year all five of us were together: about 85 from 2002 to 2009, then 45, 30, 20, 12 and 8 as everyone left home, married and had kids, down to about 5 today.' }, trendHost);
+    PHASES.forEach(([a, b, label, short], i) => {
+      if (i === 1) S('rect', { class: 't-band', x: bx(a), y: m.t, width: bx(b + 1) - bx(a), height: ph }, svg);
+      S('text', { class: 't-band-l', x: bx(a) + 4, y: m.t - 8 }, svg, narrow ? short : label);
+    });
+    [0, 25, 50, 75, 100].forEach((v) => {
+      S('line', { class: 't-grid', x1: m.l, x2: W - m.r, y1: Math.round(vy(v)) + 0.5, y2: Math.round(vy(v)) + 0.5 }, svg);
+      S('text', { class: 't-axis', x: m.l - 6, y: vy(v) + 4, 'text-anchor': 'end' }, svg, String(v));
+    });
+    const step = narrow ? 4 : 2;
+    for (let y = Y0; y <= Y1; y += step) S('text', { class: 't-axis', x: cx(y), y: H - 6, 'text-anchor': 'middle' }, svg, narrow ? "'" + String(y).slice(2) : String(y));
+    const pts = []; for (let y = Y0; y <= Y1; y++) pts.push([cx(y), vy(daysFor(y))]);
+    const line = pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' ');
+    S('path', { class: 't-area', d: line + ' L' + pts[pts.length - 1][0].toFixed(1) + ' ' + vy(0) + ' L' + pts[0][0].toFixed(1) + ' ' + vy(0) + ' Z' }, svg);
+    const cross = S('line', { class: 't-cross', x1: 0, x2: 0, y1: m.t, y2: m.t + ph, visibility: 'hidden' }, svg);
+    S('path', { class: 't-line', d: line }, svg);
+    const dotYears = [...new Set(MILESTONES.map((x) => x[0]).filter((y) => y >= Y0 && y <= Y1))];
+    dotYears.forEach((y) => S('circle', { class: 't-dot', cx: cx(y), cy: vy(daysFor(y)), r: y === Y1 ? 5.5 : 4 }, svg));
+    const hot = S('circle', { class: 't-hot', r: 6, cx: 0, cy: 0, visibility: 'hidden' }, svg);
+    const l1 = S('text', { class: 't-lab', x: cx(Y0) - 2, y: vy(85) - 12 }, svg, '~85 '); S('tspan', {}, l1, 'days a year');
+    const l2 = S('text', { class: 't-lab', x: cx(Y1) + 4, y: vy(5) - 14, 'text-anchor': 'end' }, svg, 'Today: ~5');
+    const hit = S('rect', { x: m.l, y: 0, width: pw, height: H, fill: 'transparent' }, svg);
+    trend.geo = { svg, cross, hot, cx, vy, m };
+    const at = (clientX) => { const r = svg.getBoundingClientRect(); const x = (clientX - r.left) * (W / r.width); return Math.max(0, Math.min(NY - 1, Math.floor((x - m.l) / (pw / NY)))); };
+    hit.addEventListener('pointermove', (e) => setTrend(at(e.clientX)));
+    hit.addEventListener('pointerdown', (e) => setTrend(at(e.clientX)));
+    svg.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') clearTrend(); });
+    svg.addEventListener('focus', () => setTrend(trend.idx == null ? NY - 1 : trend.idx));
+    svg.addEventListener('blur', clearTrend);
+    svg.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { e.preventDefault(); setTrend(Math.max(0, Math.min(NY - 1, (trend.idx == null ? NY - 1 : trend.idx) + (e.key === 'ArrowRight' ? 1 : -1)))); }
+      else if (e.key === 'Escape') clearTrend();
+    });
+    if (trend.idx != null) setTrend(trend.idx, true);
+  }
+  function setTrend(i, quiet) {
+    const g = trend.geo; if (!g) return;
+    trend.idx = i;
+    const y = Y0 + i, v = daysFor(y), x = g.cx(y), py = g.vy(v);
+    g.cross.setAttribute('x1', x); g.cross.setAttribute('x2', x); g.cross.setAttribute('visibility', 'visible');
+    g.hot.setAttribute('cx', x); g.hot.setAttribute('cy', py); g.hot.setAttribute('visibility', 'visible');
+    if (quiet) return;
+    const events = MILESTONES.filter((ms) => ms[0] === y && !ms[3]).map((ms) => (ms[1] !== String(y) ? ms[1] + ': ' : '') + ms[2]);
+    const r = g.svg.getBoundingClientRect(), k = r.width / g.svg.width.baseVal.value;
+    showPop((y === Y1 ? 'Today' : String(y)) + ' · ~' + v + ' days together', events, r.left + x * k, r.top + py * k);
+  }
+  function clearTrend() {
+    const g = trend.geo; trend.idx = null; hidePop();
+    if (g) { g.cross.setAttribute('visibility', 'hidden'); g.hot.setAttribute('visibility', 'hidden'); }
+  }
+  let trendRaf = 0, trendW = 0;
+  const redraw = () => { cancelAnimationFrame(trendRaf); trendRaf = requestAnimationFrame(() => { const w = trendHost.clientWidth; if (w && w !== trendW) { trendW = w; drawTrend(); } }); };
+  if (window.ResizeObserver) new ResizeObserver(redraw).observe(trendHost); else window.addEventListener('resize', redraw);
+  redraw();
+  document.addEventListener('pointerdown', (e) => { if (trend.idx != null && !trendHost.contains(e.target)) clearTrend(); });
+
+  // ---------- photo viewer (tap a polaroid to see it bigger) ----------
+  const lb = $('lb'), lbImg = $('lb-img'), lbStage = $('lb-stage');
+  const shots = Array.from(document.querySelectorAll('#view-grand .polaroid'));
+  const lbState = { idx: 0, zoom: false, back: null, swiped: false };
+  const VERB = (window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches) ? 'Click' : 'Tap';
+  document.querySelectorAll('.tip-verb').forEach((t) => { t.textContent = VERB; });
+  $('lb-hint').textContent = VERB + ' the photo to zoom in';
+  function lbSetZoom(on, cx, cy) {
+    if (on === lbState.zoom) return;
+    if (on) {
+      const r = lbImg.getBoundingClientRect();
+      if (!r.width) return;
+      const fx = cx != null ? (cx - r.left) / r.width : 0.5;
+      const fy = cy != null ? (cy - r.top) / r.height : 0.5;
+      const w = Math.round(r.width * (r.width < 600 ? 2.5 : 2));
+      const h = w * r.height / r.width;
+      lb.classList.add('zoomed'); lbState.zoom = true;
+      lbImg.style.width = w + 'px';
+      const sr = lbStage.getBoundingClientRect();
+      lbStage.scrollLeft = fx * w - (cx != null ? cx - sr.left : sr.width / 2);
+      lbStage.scrollTop = fy * h - (cy != null ? cy - sr.top : sr.height / 2);
+    } else {
+      lb.classList.remove('zoomed'); lbState.zoom = false;
+      lbImg.style.width = '';
+      lbStage.scrollLeft = 0; lbStage.scrollTop = 0;
+    }
+    $('lb-hint').textContent = on ? VERB + ' again to zoom back out' : VERB + ' the photo to zoom in';
+  }
+  function lbShow(i) {
+    const n = shots.length;
+    lbState.idx = ((i % n) + n) % n;
+    const f = shots[lbState.idx], im = f.querySelector('img'), idx = lbState.idx;
+    lbSetZoom(false);
+    lbImg.src = im.currentSrc || im.getAttribute('src');
+    lbImg.alt = im.alt;
+    if (im.dataset.full) {
+      const big = new Image();
+      big.onload = () => { if (lbState.idx === idx) lbImg.src = big.src; };
+      big.src = im.dataset.full;
+    }
+    const cap = f.querySelector('figcaption');
+    $('lb-cap').textContent = cap ? cap.textContent : '';
+    $('lb-count').textContent = (idx + 1) + ' of ' + n;
+    [idx + 1, idx - 1].forEach((j) => { const s = shots[((j % n) + n) % n].querySelector('img'); const p = new Image(); p.src = s.dataset.full || s.getAttribute('src'); });
+  }
+  function lbOpen(i) {
+    lbState.back = shots[i];
+    lbShow(i);
+    document.documentElement.classList.add('lb-open');
+    if (lb.showModal) { if (!lb.open) lb.showModal(); } else lb.setAttribute('open', '');
+    $('lb-close').focus({ preventScroll: true });
+  }
+  function lbClose() { if (lb.close) lb.close(); else { lb.removeAttribute('open'); lbOnClose(); } }
+  function lbOnClose() {
+    document.documentElement.classList.remove('lb-open');
+    lbSetZoom(false);
+    if (lbState.back) lbState.back.focus({ preventScroll: true });
+  }
+  shots.forEach((f, i) => {
+    const cap = f.querySelector('figcaption');
+    f.tabIndex = 0;
+    f.setAttribute('role', 'button');
+    f.setAttribute('aria-label', 'See this photo bigger' + (cap ? ': ' + cap.textContent : ''));
+    f.addEventListener('click', () => lbOpen(i));
+    f.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); lbOpen(i); } });
+  });
+  lb.addEventListener('close', lbOnClose);
+  $('lb-close').addEventListener('click', lbClose);
+  $('lb-prev').addEventListener('click', () => lbShow(lbState.idx - 1));
+  $('lb-next').addEventListener('click', () => lbShow(lbState.idx + 1));
+  lb.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') { e.preventDefault(); lbShow(lbState.idx + 1); }
+    else if (e.key === 'ArrowLeft') { e.preventDefault(); lbShow(lbState.idx - 1); }
+  });
+  lbStage.addEventListener('click', (e) => {
+    if (lbState.swiped) { lbState.swiped = false; return; }
+    if (e.target === lbImg) lbSetZoom(!lbState.zoom, e.clientX, e.clientY);
+    else if (e.target === lbStage && !lbState.zoom) lbClose();
+  });
+  let touch = null;
+  lbStage.addEventListener('touchstart', (e) => { touch = (!lbState.zoom && e.touches.length === 1) ? { x: e.touches[0].clientX, y: e.touches[0].clientY } : null; }, { passive: true });
+  lbStage.addEventListener('touchend', (e) => {
+    if (!touch) return;
+    const t = e.changedTouches[0], dx = t.clientX - touch.x, dy = t.clientY - touch.y;
+    touch = null;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      lbState.swiped = true; setTimeout(() => { lbState.swiped = false; }, 400);
+      lbShow(lbState.idx + (dx < 0 ? 1 : -1));
+    }
+  });
+
+  connect();
+})();
+</script>
+
+</body>
+</html>
