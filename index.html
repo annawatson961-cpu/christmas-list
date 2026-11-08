@@ -11,12 +11,13 @@
 <meta property="og:site_name" content="Anna Marie's Christmas List">
 <meta property="og:title" content="Anna Marie's 2026 Christmas List">
 <meta property="og:description" content="For Mom, Kim, Dad and Roy. Tap to open the list.">
-<meta property="og:image" content="preview.jpg">
+<meta property="og:url" content="https://annawatson961-cpu.github.io/christmas-list/">
+<meta property="og:image" content="https://annawatson961-cpu.github.io/christmas-list/preview.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Anna Marie's 2026 Christmas List">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="preview.jpg">
+<meta name="twitter:image" content="https://annawatson961-cpu.github.io/christmas-list/preview.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -89,8 +90,8 @@
 
 /* page tabs */
 .wrap { grid-template-columns: minmax(0, 1fr); }
-.view { display: grid; gap: 32px; grid-template-columns: minmax(0, 1fr); min-width: 0; }
 [hidden] { display: none !important; }
+.view { display: grid; gap: 32px; grid-template-columns: minmax(0, 1fr); min-width: 0; }
 .view > * { min-width: 0; }
 .tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
 .tab { text-decoration: none; font-weight: 600; font-size: 0.95rem; padding: 9px 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
@@ -110,7 +111,7 @@
 .gg-teaser-eyebrow { font-size: 0.78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #E9C77E; }
 .gg-teaser-title { font-family: var(--font-display); font-weight: 700; font-size: 1.45rem; line-height: 1.1; }
 .gg-teaser-sub { font-family: var(--font-letter); font-style: italic; font-size: 1.02rem; opacity: .92; }
-.gg-teaser-go { font-weight: 700; background: #E9C77E; color: #3B0A12; border-radius: 999px; padding: 8px 14px; white-space: nowrap; }
+.gg-teaser-go { font-weight: 700; background: #E9C77E; color: #3B0A12; border-radius: 999px; padding: 9px 16px; text-align: center; line-height: 1.25; }
 
 /* grand gift page */
 .gg { gap: 56px; overflow-x: clip; padding-block: 4px; }
@@ -146,7 +147,7 @@
 .why-wide { grid-column: 1 / -1; background: var(--brass-bg); }
 .trips { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr)); gap: 18px; }
 .trip { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; }
-.trip img { display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.trip img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
 .trip-body { padding: 16px 18px 20px; display: grid; gap: 6px; }
 .trip-tag { font-family: var(--font-body) !important; font-size: 0.78rem !important; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--brass); }
 .trip h5 { margin: 0; font-family: var(--font-display); font-weight: 700; font-size: 1.55rem; line-height: 1.1; }
@@ -937,8 +938,8 @@ body { margin: 0; }
 
     <section class="gg-sec">
       <h3>Remember us?</h3>
-      <p>Look at these faces. Silly faces, matching hats, two of us on one horse, all of us squeezed onto one bench. Somewhere along the way, kids from two families became brothers and sisters. That didn't happen by accident. You made it happen, one holiday, one road trip, one Christmas morning at a time.</p>
-      <p>Now we're all grown. We have jobs, spouses, kids of our own, and calendars that never seem to line up. We still love each other just as much. We just don't get to be together the way we were in these pictures, and I miss it.</p>
+      <p>Look at us. All of us, blended together as one. Somewhere along the way, kids from two families became brothers and sisters. That didn't happen by accident. <b>You guys</b> made it happen, one holiday, one road trip, one Christmas morning at a time.</p>
+      <p>Now we're all grown. We have jobs, some of us have spouses, some have kids of their own, and calendars that never seem to align. We still love each other just as much. We just don't get to be together the way we were in these pictures&hellip; and I miss it.</p>
       <p class="gg-tip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21M10.5 7.5v6M7.5 10.5h6"/></svg><span><span class="tip-verb">Tap</span> any photo to see it up close</span></p>
     </section>
     <div class="scrapbook">
@@ -987,8 +988,6 @@ body { margin: 0; }
         <div class="stat"><p class="stat-v">4 out of 5</p><p class="stat-l">Of all the days we'll ever spend together, that's how many are already behind us if nothing changes.</p></div>
       </div>
 
-      <p>None of this happened because anyone stopped caring. It's exactly what's supposed to happen: we grew up, went to college, got married and had babies (six of them, with number seven on the way!). But it means the time we used to get without even trying now has to be made on purpose.</p>
-      <p>Our family trips are still some of my favorite days of the year, and now they're full of grandkids, which is its own kind of wonderful. But between naps, snacks and sunscreen, the five of us barely get a real conversation in.</p>
       <p class="gg-big">One 4-night trip would give us as much time together as a whole year does right now.</p>
 
       <details class="gg-how">
@@ -1010,12 +1009,6 @@ body { margin: 0; }
       <h3 id="gg-now-title">Why now, not someday</h3>
       <p class="gg-big">I don't want to wait two or three more years for this. I want us to start planning this Christmas and go in 2027.</p>
       <p>Look at that chart. Every year we put it off, there are more schedules to work around and fewer days to work with. By next year there will be seven grandkids. Life isn't going to slow down on its own, so the best time to start is right now.</p>
-      <h4>Here's the timeline I'm hoping for</h4>
-      <ol class="gg-steps">
-        <li><b>This Christmas</b>You say yes, and tell everyone it matters to you.</li>
-        <li><b>January</b>We pick the trip and lock in dates, planned around Bailey's new baby.</li>
-        <li><b>2027</b>We go, and we make it the first of many.</li>
-      </ol>
     </section>
 
     <section class="gg-sec">
@@ -1065,12 +1058,39 @@ body { margin: 0; }
           </div>
         </article>
         <article class="trip">
-          <img src="images/gg/trip-jackson.webp" alt="All of us siblings together in Jackson Hole" loading="lazy">
+          <img src="images/gg/trip-jackson-yellowstone.webp" alt="Us siblings together in Jackson Hole near Yellowstone, with mountains and bison behind us" loading="lazy">
           <div class="trip-body">
             <p class="trip-tag">The trip of a lifetime</p>
-            <h5>Jackson Hole, Wyoming</h5>
+            <h5>Jackson Hole &amp; Yellowstone, Wyoming</h5>
             <p class="trip-len">4 nights</p>
-            <p>Teton views, hikes, maybe horseback riding again (we've had some practice), and nights around a fire.</p>
+            <p>Teton views, bison in the valley, hikes, maybe horseback riding again (we've had some practice), and nights around a fire.</p>
+          </div>
+        </article>
+        <article class="trip">
+          <img src="images/gg/trip-grand-canyon.webp" alt="Us siblings together at the rim of the Grand Canyon" loading="lazy">
+          <div class="trip-body">
+            <p class="trip-tag">The bucket-list views</p>
+            <h5>Grand Canyon, Arizona</h5>
+            <p class="trip-len">3 nights</p>
+            <p>Sunrise at the rim, a hike down into the canyon, and stargazing under the biggest sky we've ever seen. The kind of views that make you put your phone down.</p>
+          </div>
+        </article>
+        <article class="trip">
+          <img src="images/gg/trip-monterey.webp" alt="Us siblings together on the beach in Monterey, with the Lone Cypress behind us" loading="lazy">
+          <div class="trip-body">
+            <p class="trip-tag">The coastal escape</p>
+            <h5>Monterey, California</h5>
+            <p class="trip-len">4 nights &middot; Carmel-by-the-Sea &amp; Pebble Beach</p>
+            <p>17-Mile Drive past the Lone Cypress, beach picnics, strolling the little shops in Carmel-by-the-Sea, and long dinners with ocean views.</p>
+          </div>
+        </article>
+        <article class="trip">
+          <img src="images/gg/trip-vermont.webp" alt="Us siblings together in Vermont in the fall, with a covered bridge and red leaves behind us" loading="lazy">
+          <div class="trip-body">
+            <p class="trip-tag">The cozy fall trip</p>
+            <h5>Vermont in the Fall</h5>
+            <p class="trip-len">3 nights</p>
+            <p>Covered bridges, red and gold leaves, apple cider donuts, flannel weather, and cozy nights catching up by the fire.</p>
           </div>
         </article>
       </div>
@@ -1078,16 +1098,13 @@ body { margin: 0; }
 
     <section class="gg-sec gg-soft">
       <h3>The grandkids get a trip too</h3>
-      <p>While we're away, the grandkids get something special of their own: a few nights with their grandparents. Pancake breakfasts, movie nights, staying up past bedtime. Years from now, they'll remember that weekend too.</p>
-      <p>And we'll FaceTime every night so nobody misses anybody too much.</p>
+      <p>While we're all away, the grandkids get something special of their own: a few nights with their grandparents! Years from now, they'll remember that weekend too.</p>
     </section>
 
     <section class="gg-sec">
-      <h3>I'll handle the rest</h3>
+      <h3>Here's my part</h3>
       <ul class="gg-checks">
-        <li>I'll find the dates that work, compare places, and plan the whole thing.</li>
-        <li>I'll set up the group chat and keep everyone on track.</li>
-        <li>I'll plan it to fit everyone's budget, so cost never keeps anyone home.</li>
+        <li>I'll handle as much as I can and coordinate with the siblings once everyone is locked in and on board.</li>
         <li>I'll send you every photo, and we'll come home with stories to tell around your table.</li>
       </ul>
     </section>
@@ -1107,6 +1124,9 @@ body { margin: 0; }
         <button type="button" data-trip="seaside" aria-pressed="false">Seaside</button>
         <button type="button" data-trip="napa" aria-pressed="false">Napa</button>
         <button type="button" data-trip="jackson" aria-pressed="false">Jackson Hole</button>
+        <button type="button" data-trip="grandcanyon" aria-pressed="false">Grand Canyon</button>
+        <button type="button" data-trip="monterey" aria-pressed="false">Monterey</button>
+        <button type="button" data-trip="vermont" aria-pressed="false">Vermont</button>
         <button type="button" data-trip="any" aria-pressed="false">You pick, Anna Marie</button>
       </div>
       <button type="button" class="gg-yes" id="gg-yes">We're in! Let's make it happen</button>
@@ -1443,7 +1463,7 @@ document.body.classList.add('nospoil');
   route();
 
   // ---------- grand gift answer ----------
-  const TRIPS = { seaside: 'Seaside', napa: 'Napa', jackson: 'Jackson Hole', any: "Anna Marie's pick" };
+  const TRIPS = { seaside: 'Seaside', napa: 'Napa', jackson: 'Jackson Hole & Yellowstone', grandcanyon: 'Grand Canyon', monterey: 'Monterey', vermont: 'Vermont in the fall', any: "Anna Marie's pick" };
   const gg = { trip: null, picked: false, answer: null, saving: false };
   async function renderGG() {
     document.querySelectorAll('.gg-chips button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.trip === gg.trip)));
